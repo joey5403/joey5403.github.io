@@ -2,4 +2,5 @@ baseURL = 'http://joey5403.github.io/'
 languageCode = 'en-us'
 title = 'JoeyZheng'
 theme = 'hugo-theme-bootstrap'
-logo = false
+[build]
+  writeStats = true
