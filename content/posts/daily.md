@@ -1207,3 +1207,21 @@ CLOSED: <span class="timestamp-wrapper"><span class="timestamp">[2022-07-27 Wed 
 
 
 ### 1220 {#1220}
+
+
+#### 华为云maxwell异常处理 {#华为云maxwell异常处理}
+
+
+#### 渗透报告-异常处理 {#渗透报告-异常处理}
+
+
+#### 商城&amp;数科灰度方案学习 {#商城-and-数科灰度方案学习}
+
+
+#### Thread.currentThread().interrupt()解答 {#thread-dot-currentthread-dot-interrupt解答}
+
+-   Note taken on <span class="timestamp-wrapper"><span class="timestamp">[2022-12-20 Tue 17:17] </span></span> <br />
+    <https://dzone.com/articles/why-do-we-need-threadcurrentthreadinterrupt-in-int>
+    ```java
+    Thread.currentThread().interrupt()
+    ```

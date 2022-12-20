@@ -1,5 +1,6 @@
 +++
 title = "Emacs,I'm back!"
+date = 2022-12-20T00:00:00+08:00
 draft = false
 +++
 
@@ -15,20 +16,20 @@ This blog will record any thing I learn how to use Emacs.
 
 It's quite easy to open emacs in terminal
 
-```nil
+```bash
 emacs -nw
 ```
 
 but if you load a lot of plugin, it's a little slow to start.
 so I aways run emacs as deamon
 
-```nil
+```bash
 emacs --deamon
 ```
 
 and use a client in terminal
 
-```nil
+```bash
 emacsclient -nw somefile
 ```
 
