@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on JoeyZheng</title>
+    <link>http://joey5403.github.io/posts/</link>
+    <description>Recent content in Posts on JoeyZheng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>
+</copyright><atom:link href="http://joey5403.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工作日志</title>
+      <link>http://joey5403.github.io/posts/daily/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://joey5403.github.io/posts/daily/</guid>
+      <description><![CDATA[2022 MAY 0506[3/3] DONE headless svc meeting @work会议 DONE add mesh state @work架构升级 DONE add redis mesh @work架构升级 0507[1/1] DONE clear when finish grayscale. @work架构升级 compare ignite-cache online to static-route @work架构升级 0509[/] DONE 灰度发布讨论会 @work会议 0510[3/3] DONE 协助排查rpc请求异常Method not found @work协助研发 DONE 灰度验证方案绘图 @work技术文档 DONE 灰度方案讨论会 @work会议 2022 JUNE 0624 0625 DONE 充燃气 DONE 换水 0627 DONE 自动化测试问题处理 DONE 讨论流量回放 DONE traceid问题分析 0628 DONE 灰度架构压测（不开启灰度） DONE 洗澡 @home 0629 DONE 灰度架构上线 @work DONE 压测环境升级灰度 @work 0630 DONE 抓取asm中的istio相关配置 @work 2022 JULY 0701 DONE 找中联航的卡 0707 CLOSED 定时任务分析 @work 0712 DONE 静态路由问题分析及修复 0713 DONE 静态路由&amp;灰度优化上线 DONE QA环境测试 DONE 准备配置文件 0718 DONE 分析3in1环境问题 @work协助运维 Note taken on [2022-07-18 Mon 20:04] 经过分析，确定由于istio-proxy重启导致请求失败，reponse_flag 为UC，已提交工单给阿里。 DONE 灰度手册评审 @work技术文档 0719 DONE 修改灰度手册 DONE 强制静态路由限制-开发 0720 DONE 钉钉环境卡单分析 @work协助研发 DONE 原生环境消费异常处理 @work协助研发 DONE 强制静态路由限制-压测&amp;上线 @work架构升级 0721 DONE 原生环境打印502 @work协助运维 DONE 后端Join数据不准确问题分析 @work问题分析 DONE 3in1环境预算卡单分析 @work协助研发 DONE 分表查询主表问题分析 @work协助研发 0722 DONE 定时任务分析 @work问题分析 Note taken on [2022-07-22 Fri 15:20] 分析过程中发现灰度类型的数据执行按企业进行，总时长较长。 DONE 自动计算接口缓慢 @work问题分析 Note taken on [2022-07-22 Fri 21:29] 分析发现链路耗时最长的为反序列化 后续专门针对对应代码进行压测 0723 DONE AB聚会 0725 DONE 协助前端完成cookie保底方案的测试 @work协助研发 Note taken on [2022-07-22 Fri 10:55] 由于前端电脑问题，改为0725再关注 DONE 跟dba确定qa环境数据清理的问题 DONE json大数据改造会议 @work会议 DONE 灰度后续任务排期 @work会议 DONE 将新讨论的灰度流程维护到灰度使用手册 0726 CLOSED 带个打火机到公司 @home DONE 反序列化时间过长问题分析 @work问题分析 Note taken on [2022-07-27 Wed 19:08] 看了所有Filter 并没有发现可能导致时间很长的 Note taken on [2022-07-27 Wed 18:50] 增加日志发现与rpc无关，压测发现与反序列化也无关，需要分析Filter 0727 DONE 灰度使用首次-TL宣讲 DONE 日志&amp;定时任务优化 DONE 协助完成静态路由改造 DONE Datalink下游链路优化讨论 DONE QA环境charge页面展示异常修复 Note taken on [2022-07-27 Wed 18:43] 检查由于Header中被添加了X-Content-Type-Options: nosniff CLOSED: [2022-07-27 Wed 18:43]]]></description>
+    </item>
+    
+  </channel>
+</rss>
+
