@@ -34,10 +34,25 @@ draft = false
 #### 对公平台微服务讨论 <span class="tag"><span class="__">会议</span></span> {#对公平台微服务讨论}
 
 
-#### organization-rest服务CPU满载问题分析 {#organization-rest服务cpu满载问题分析}
+#### organization-rest服务CPU满载问题分析 <span class="tag"><span class="____">问题分析</span></span> {#organization-rest服务cpu满载问题分析}
 
 
-#### travel-server编译问题分析 {#travel-server编译问题分析}
+#### travel-server编译问题分析 <span class="tag"><span class="____">问题分析</span></span> {#travel-server编译问题分析}
 
 
-####  {#d41d8c}
+### 0106 FRI {#0106-fri}
+
+
+#### 灰度后续推进计划讨论 <span class="tag"><span class="__">会议</span></span> {#灰度后续推进计划讨论}
+
+
+#### 配置平台功能点讨论 <span class="tag"><span class="__">会议</span></span> {#配置平台功能点讨论}
+
+
+#### 迭代周期统一后的发版逻辑讨论 <span class="tag"><span class="__">会议</span></span> {#迭代周期统一后的发版逻辑讨论}
+
+
+#### 线上注入异常问题支持 <span class="tag"><span class="____">问题分析</span></span> {#线上注入异常问题支持}
+
+
+#### 流量染色机制设计及调研 {#流量染色机制设计及调研}
