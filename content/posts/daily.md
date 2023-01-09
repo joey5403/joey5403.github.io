@@ -60,6 +60,9 @@ draft = false
 
 ### 0108 MON {#0108-mon}
 
+
+#### EntityList分表查询异常分析 <span class="tag"><span class="____">协助研发</span><span class="____">问题分析</span></span> {#entitylist分表查询异常分析}
+
 -   Note taken on <span class="timestamp-wrapper"><span class="timestamp">[2023-01-09 Mon 15:22] </span></span> <br />
     找不到datalink_dataLink表对应的分表，
     因为没有指定corporationId或者没有指定context.CorporationId
@@ -75,4 +78,23 @@ draft = false
     1.  改用querybuilder,使用from的时候传corporationId
 
 
-#### EntityList分表查询异常分析 <span class="tag"><span class="____">协助研发</span><span class="____">问题分析</span></span> {#entitylist分表查询异常分析}
+#### $creatTime字段查询分析 {#creattime字段查询分析}
+
+-   Note taken on <span class="timestamp-wrapper"><span class="timestamp">[2023-01-09 Mon 15:25] </span></span> <br />
+    不支持使用$createTime字段查询
+
+
+#### swagger-ui请求404分析 {#swagger-ui请求404分析}
+
+-   Note taken on <span class="timestamp-wrapper"><span class="timestamp">[2023-01-09 Mon 15:25] </span></span> <br />
+    配置需放在jersey内
+    已修改使用手册
+
+
+#### 合同变更技术方案沟通确认 <span class="tag"><span class="__">会议</span></span> {#合同变更技术方案沟通确认}
+
+
+#### release环境rpc请求异常分析 {#release环境rpc请求异常分析}
+
+
+#### hw环境maxwell配置确认 {#hw环境maxwell配置确认}
