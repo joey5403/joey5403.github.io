@@ -56,3 +56,23 @@ draft = false
 
 
 #### 流量染色机制设计及调研 <span class="tag"><span class="____">技术预研</span></span> {#流量染色机制设计及调研}
+
+
+### 0108 MON {#0108-mon}
+
+-   Note taken on <span class="timestamp-wrapper"><span class="timestamp">[2023-01-09 Mon 15:22] </span></span> <br />
+    找不到datalink_dataLink表对应的分表，
+    因为没有指定corporationId或者没有指定context.CorporationId
+    问题原因：
+    定时任务中使用分表的entityList不能自动传入corporationId
+    解决办法:
+
+    1.  在查询前用
+
+    contextCorporationId.set(staff.corporationId())
+    设置contextCorporationId
+
+    1.  改用querybuilder,使用from的时候传corporationId
+
+
+#### EntityList分表查询异常分析 <span class="tag"><span class="____">协助研发</span><span class="____">问题分析</span></span> {#entitylist分表查询异常分析}
