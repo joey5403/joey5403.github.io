@@ -194,3 +194,45 @@ draft = false
 
 
 #### 华为环境割接方案讨论 {#华为环境割接方案讨论}
+
+
+### 0201 WED {#0201-wed}
+
+
+#### maxwell代码合并 {#maxwell代码合并}
+
+
+#### maxwell打包、测试 {#maxwell打包-测试}
+
+
+#### polarDB沟通会 {#polardb沟通会}
+
+-   Note taken on <span class="timestamp-wrapper"><span class="timestamp">[2023-02-01 Wed 19:58] </span></span> <br />
+    1.  polarDB 8.0.2
+    2.  dts 经常断联
+    3.  源地址切换一直卡在切换中
+    4.  在正式切换时可以申请阿里支援
+    5.  切换maxwell 三清
+    6.  使用期间的扩容
+    7.  并行度在页面中的设置实时生效，在参数中的设置需要重新建立链接生效
+    8.  创建虚拟列&amp;创建索引的速度测试
+    9.  分区表分区测试
+    10. 私有化场景，可以提供部署
+
+
+#### 灰度一天的方案讨论会 {#灰度一天的方案讨论会}
+
+
+### 0202 THU {#0202-thu}
+
+
+#### maxwell启动异常处理 {#maxwell启动异常处理}
+
+
+#### OKR讨论会 {#okr讨论会}
+
+
+#### gradle覆盖率检查支持 {#gradle覆盖率检查支持}
+
+
+### 0203 FRI {#0203-fri}
