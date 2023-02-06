@@ -236,3 +236,27 @@ draft = false
 
 
 ### 0203 FRI {#0203-fri}
+
+
+#### 华为云沟通会 {#华为云沟通会}
+
+
+#### gaussDB兼容性问题排查 {#gaussdb兼容性问题排查}
+
+
+#### 双周会 {#双周会}
+
+
+####  {#d41d8c}
+
+
+### 0206 MON {#0206-mon}
+
+
+#### swagger response上线及回滚 {#swagger-response上线及回滚}
+
+
+#### gaussDB兼容性问题支持 {#gaussdb兼容性问题支持}
+
+
+####  {#d41d8c}
