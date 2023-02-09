@@ -247,9 +247,6 @@ draft = false
 #### 双周会 {#双周会}
 
 
-####  {#d41d8c}
-
-
 ### 0206 MON {#0206-mon}
 
 
@@ -257,6 +254,36 @@ draft = false
 
 
 #### gaussDB兼容性问题支持 {#gaussdb兼容性问题支持}
+
+
+### 0207 TUE {#0207-tue}
+
+
+####  {#d41d8c}
+
+
+### 0208 WED {#0208-wed}
+
+
+#### polarDB升级方案讨论 {#polardb升级方案讨论}
+
+
+#### gaussDB需求讨论 {#gaussdb需求讨论}
+
+
+#### 架构讲解文档准备 {#架构讲解文档准备}
+
+
+#### 架构讲解 {#架构讲解}
+
+-   Note taken on <span class="timestamp-wrapper"><span class="timestamp">[2023-02-09 Thu 15:36] </span></span> <br />
+    创建业务对象大图
+    链路大图
+    对象模型合理性
+    框架&amp;detail规范
+
+
+### 0209 THU {#0209-thu}
 
 
 ####  {#d41d8c}
