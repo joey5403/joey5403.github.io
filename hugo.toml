@@ -1,6 +1,6 @@
 baseURL = 'http://joey5403.github.io/'
 languageCode = 'en-us'
 title = 'JoeyZheng'
-# theme = 'hugo-theme-bootstrap'
+theme = 'ananke'
 [build]
   writeStats = true
