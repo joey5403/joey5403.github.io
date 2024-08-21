@@ -1,0 +1,8 @@
+baseURL = 'https://joeyzheng.tech/'
+languageCode = 'zh-cn'
+title = '黄庄以北'
+theme = ["PaperMod"]
+params = {
+  defaultTheme: 'dark'
+}
+
