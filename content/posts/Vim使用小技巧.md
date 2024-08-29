@@ -1,7 +1,12 @@
 ---
-id: Vim
-aliases: []
-tags: []
+date: 2024-08-28
+authors:
+  - joey5403
+title: Vim使用小技巧
+tags: 
+  - vim
+categories: 
+  - Tech
 ---
 
 # 如何键入真正的Tab字符？
@@ -60,5 +65,10 @@ set expandtab
 
 ```vim
 :luafile ~/.config/nvim/init.lua
+```
+
+# 如何修改工作目录
+```vim
+:cd ~/path
 ```
 
