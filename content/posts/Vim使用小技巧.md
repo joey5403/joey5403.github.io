@@ -1,12 +1,14 @@
 ---
-date: 2024-08-28
+id: Vim使用小技巧
+aliases: []
+tags:
+  - vim
 authors:
   - joey5403
-title: Vim使用小技巧
-tags: 
-  - vim
-categories: 
+categories:
   - Tech
+date: "2024-08-28"
+title: Vim使用小技巧
 ---
 
 # 如何键入真正的Tab字符？
@@ -49,6 +51,8 @@ set expandtab
 
 对于更复杂的代码格式化，例如按照特定的编码风格进行格式化，您可能需要安装额外的插件。例如，对于 Python，您可以使用 `black` 或 `yapf` 插件；对于 JavaScript，您可以使用 `prettier` 插件。安装这些插件后，您可以配置 Neovim 在保存文件时自动格式化代码，或者配置一个快捷键来手动格式化代码。
 
+
+
 # 如何粘贴clipboard中的内容？
 在 Neovim 中，您可以使用以下命令来粘贴剪贴板的内容：
 
@@ -71,4 +75,8 @@ set expandtab
 ```vim
 :cd ~/path
 ```
+# 如何在termux中的vim里输入中文？
+
+有时termux的终端无法输入中文，可以通过以下方法解决：
+将termux最下面的快捷栏向左滑动，就会进入一个文本输入模式，此时可以激活输入法，切换到中文输入法后，再向右滑动快捷栏，就可以在vim中直接输入中文了。
 
