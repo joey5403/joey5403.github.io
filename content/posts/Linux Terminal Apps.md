@@ -11,6 +11,7 @@ categories:
   - Tech
 series:
 ---
+
 # aerc
 一个简单易用的终端下的邮件客户端
 我分别测试了notmuch，himalaya，mutt，aerc
@@ -29,6 +30,5 @@ vdirsyncer 是一个caldav同步工具
 ![](https://img.joeyzheng.tech/ob-1726629280555.png)
 
 
-# vim
-
+# vim️
 
