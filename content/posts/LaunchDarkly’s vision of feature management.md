@@ -29,3 +29,36 @@ It’s a beautiful world, indeed.
 This is our vision for software development and delivery. We recognize that what we’ve depicted is aspirational and that most organizations will only achieve an approximation of it. That’s ok. The point is to have a clear vision for which to strive.
 
 In a software-centered world, one full of peril and uncertainty, control is one of your greatest assets. Feature management gives you that control. And LaunchDarkly gives you feature management in its highest form.
+
+
+## 软件驱动世界。LaunchDarkly赋予所有团队交付和控制其软件的能力。
+
+理论上，团队可以在不依赖专用特性管理工具的情况下参与特性管理的四大支柱。在许多情况下，工程师会构建一个内部的拼凑解决方案来管理特性标志。然而，有些组织确实构建并使用了世界级的自制系统。但根据我们的经验，后者是例外。
+
+不足为奇，LaunchDarkly认为，从长远来看，商业特性管理平台比替代方案更经济、更可持续、更无痛。你可以在这里探索[自建与购买特性管理解决方案的利弊](https://launchdarkly.com/blog/feature-management-platform-build-or-buy/)。
+
+[LaunchDarkly的集中式特性管理平台](https://launchdarkly.com/product/)，一个软件即服务（SaaS）解决方案，提供了一整套工具，用于参与所有四大支柱。它赋予团队对其应用程序中的每个功能的完全控制权。它使他们能够更快地构建和交付更好的软件，同时几乎消除了过程中的风险。微软、IBM、Atlassian、NBC、Intuit和[4000多个其他客户](https://launchdarkly.com/customers/)使用LaunchDarkly快速发货，保持安全，并保持控制。
+
+在这个关于特性管理的终极指南中，我们已经涵盖了很多内容。特性管理的四大支柱代表了一种新的软件开发方式。它们体现了LaunchDarkly对特性管理的愿景。最后，我们想阐明这一愿景，以便照亮特性管理旨在引导你前往的应许之地。
+
+这是我们对特性管理的愿景，我们致力于帮助您实现这一愿景。
+
+## 我们的愿景
+
+在LaunchDarkly，我们设想一个特性发布是安全、乏味且不张扬的世界。再也没有紧张的、令人胃痛的发布日，开发者焦虑地坐在他们的笔记本电脑前，等待出现问题。此外，我们看到了发布被安排和自动化的一天——一些你“设置并忘记”的事情。在这个世界里，开发者不再害怕在周五下午5点部署。相反，每个人在他们愿意的时候部署，并且充满极大的信心。
+
+我们进一步想象一个消除了不必要的延迟和积压的软件开发世界。重启、重新部署和回滚将成为过去。你也不必因为一个有缺陷的功能而禁用整个功能集并回退到应用程序的旧版本。不再有代码在拉取请求（PR）队列中或在暂存环境中滞留。不再有长期存在的[功能分支](https://launchdarkly.com/blog/dos-and-donts-of-feature-branching/)。不再有合并冲突。
+
+相反，我们想象的世界促进了前进。在其中，软件工程师更加高效。他们不是维护系统和扑灭火灾，而是致力于构建、创造和创新。
+
+我们设想一个大多数（如果不是全部）新功能都被包裹在特性标志中的世界。当出现错误时，负责的功能会自动关闭。在这个世界里，标志使团队能够几乎立即从事件中恢复。客户完全免受这些系统故障的影响。团队持续交付软件，同时保持高稳定性。
+
+我们还想象一个软件组织构建更多客户喜爱的事物的世界。不再浪费大量时间和金钱构建没有人想要的功能——而你是最后一个知道的。相反，在我们描述的世界中，你尝试一切。你不断学习和评估每次代码更改如何影响系统性能和用户行为。你利用这些数据进行迭代、迭代、再迭代，直到你构建了令人难以置信的东西。
+
+最后，在LaunchDarkly，我们设想一个所有团队在交付软件中发挥重要作用的世界。产品经理自行进行Beta测试；营销人员在准备向客户展示新功能时点击“开始”；销售和客户成功代表管理权限。在这样一个所有团队都被授权交付和控制软件的世界中，发生的灾难更少，工程师的倦怠急剧下降，客户满意度上升。
+
+这确实是一个美丽的世界。
+
+这是我们对软件开发和交付的愿景。我们认识到我们所描绘的是理想的，大多数组织将只实现它的一个近似值。这没关系。关键是有一个清晰的愿景去努力。
+
+在一个以软件为中心的世界里，充满了危险和不确定性，控制是你最大的资产之一。特性管理赋予你这种控制。而LaunchDarkly以最高形式为您提供特性管理。
