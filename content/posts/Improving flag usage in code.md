@@ -44,7 +44,8 @@ To learn more, read [Code references](https://docs.launchdarkly.com/home/observ
 
 Here is an image of the code references section for a feature flag:
 
-[![The code references section of a feature flag.](https://docs.launchdarkly.com/static/1729099785211.195811762/6af66/flag-code-references.png)](https://docs.launchdarkly.com/static/1729099785211.195811762/10c1e/flag-code-references.png)
+![](https://img.joeyzheng.tech/ob-1729145718689.png)
+
 
 The code references section of a feature flag.
 
