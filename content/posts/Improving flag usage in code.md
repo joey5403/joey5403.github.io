@@ -328,3 +328,334 @@ In this guide, we covered:
 - Using code references to find feature flags in your codebase
 - When and how to refactor to streamline your code
 - How to improve code quality with flags
+
+
+
+提高代码中特性标志使用的最佳实践
+
+#### 阅读时间：10分钟
+
+#### 最后编辑：2024年9月18日
+
+## [](https://undefined/)概览
+
+本指南提供了最佳实践和建议，以改善使用特性标志的代码。这些实践可以提高代码质量和维护的便利性。
+
+您可以将代码与特性标志一起使用，以维护和提高您流程的弹性，包括改善标志卫生、为团队提供更多灵活性、在需要的程度上重构标志代码，以及普遍提高代码质量。
+
+并非所有最佳实践都适用于每个人
+
+本指南中提供的做法是主观的。对于一个团队来说可能是最佳实践，对于另一个团队可能效果不佳。在实施之前，请仔细考虑这些建议是否能帮助您的团队。
+
+## [](https://undefined/)概念
+
+为了有效地使用本指南，您应该理解以下概念：
+
+### [](https://undefined/)提高标志卫生
+
+项目中添加的大多数标志都是临时的，打算稍后移除。不幸的是，大多数团队在移除标志方面比添加标志更差，因为移除通常不那么紧迫。这可能导致代码库中充满了不再相关的标志。这在最好的情况下会使代码更难阅读；在最坏的情况下，不小心切换错误的标记可能会导致生产失败。
+
+使用标志的团队需要确保他们的代码只引用当前正在使用的标志。这种实践被称为“标志卫生”。以下是一些有助于维护良好标志卫生的技术。
+
+要了解更多关于标志卫生的信息，请阅读[减少特性标志的技术债务](https://docs.launchdarkly.com/guides/flags/technical-debt)。
+
+### [](https://undefined/)扩展团队的“完成定义”
+
+工程团队维护自己的标准，以确定何时可以认为任务或项目“完成”。例如，一个团队可能认为，除非代码有自动化测试，否则任务的代码不完整。
+
+您可以通过确保为任务或项目创建的临时标志不再被任何代码引用，并且在不再使用后被归档，来维护标志卫生。将此作为团队完成定义的要求，可能有助于简化您的代码库，因为只有您正在积极使用的标记才会出现在其中。
+
+通过持续集成（CI）系统执行的自动化检查，更容易维护代码标准。您甚至可以自动化一些标志卫生检查。
+
+## [](https://undefined/)使用代码引用跟踪标志卫生
+
+LaunchDarkly的[代码引用](https://docs.launchdarkly.com/home/observability/code-references)功能跟踪您的代码中每个标志出现的位置。当您需要清理旧标志时，它特别有用。
+
+通过将[](https://undefined/)工具集成到您的代码管道中，确保您的项目的代码引用是最新的。
+
+要了解更多信息，请阅读[代码引用](https://docs.launchdarkly.com/home/observability/code-references)。
+
+这里是功能标志的代码引用部分的图片：
+
+[](https://undefined/)
+
+功能标志的代码引用部分。
+
+## [](https://undefined/)重构标志代码以减少合并冲突
+
+合并冲突是进行代码更改时常见的摩擦源。在函数中间添加标志逻辑会增加该添加及其后续删除与其他更改冲突的可能性。
+
+为了减少冲突的机会，重构标志逻辑和每个变体的代码到它们自己的函数中。保持重构简单，以便实现标志的总时间很短。
+
+下面的示例不使用真正的编程语言
+
+下面的示例使用近似于真实编程语言的示例来说明它们表达的概念。该语言基于JavaScript，但不是JavaScript。
+
+不要将这些代码示例用于生产环境。它们将无法工作。
+
+以下是一个演示这种分解策略的示例。示例代码来自一个虚构的应用程序，该应用程序具有查询后端搜索引擎的搜索功能。在现有代码中，函数`getSearchResults`负责将搜索查询发送到后端、检查错误并获取结果。
+
+以下是一个示例：
+
+伪代码
+
+
+```
+function getSearchResults(query, context) {
+
+  // 1. 解析查询以便引擎可以使用
+
+  // ...查询解析逻辑在这里...
+
+  // 2. 将搜索查询发送到后端搜索引擎
+
+  engineURL = SEARCH_ENGINE_URL + '/search';
+
+  response = sendRequest(engineURL, parsedQuery);
+
+  // 3. 检查错误
+
+  if (response.body.starts_with("SEARCH ERROR")) {
+
+    // 如果有错误，记录响应和上下文详细信息
+
+    log.ERROR("Search failure", response, context);
+
+    return new Error("There was an internal search error.");
+
+  } else {
+
+    // 4. 将响应转换为结果列表，清理结果等
+
+    // ...结果逻辑在这里...
+
+    return results;
+
+  }
+
+}
+```
+
+
+应用程序的工程团队正准备迁移到一个新的、改进的搜索引擎。为了准备迁移，团队创建了标志`use-new-search-engine`来告诉应用程序使用哪个搜索后端。代码需要包括查询旧搜索引擎和新搜索引擎的代码。
+
+在`getSearchResults`中间插入标志逻辑会使它比已经复杂的情况更加复杂。相反，他们提取相关代码并将其移动到新函数中。他们将发送查询到搜索引擎的代码（上述代码中的第2部分）以及处理错误和结果的代码（第3和第4部分），因为新引擎以不同的格式返回错误和结果。
+
+团队将这些代码行，以及新搜索引擎的代码和检查标志的代码，移动到它们自己的函数中：
+
+伪代码
+
+
+```
+// 这个主函数的新版本更短，
+
+// 因为它将中心工作委托给executeSearch()
+
+function getSearchResults(query, context) {
+
+  // 1. 解析查询以便引擎可以使用
+
+  // ...查询解析逻辑在这里...
+
+  // 2. 将搜索查询发送到后端搜索引擎
+
+  response = executeSearch(parsedQuery, context);
+
+  return response;
+
+}
+
+// 这个函数只检查“use-new-search-engine”标志的值
+
+// 并将查询路由到下面的两个函数之一
+
+// 执行实际的查询和处理
+
+function executeSearch(query, context) {
+
+  useNewEngine = ldclient.variation("use-new-search-engine", context, false);
+
+  if (useNewEngine == true) {
+
+    return queryNewEngine(query, context);
+
+  } else {
+
+    return queryOldEngine(query, context);
+
+  }
+
+}
+
+// 这个函数查询旧搜索引擎并处理响应
+
+function queryOldEngine(query, context) {
+
+  engineURL = SEARCH_ENGINE_URL + '/search';
+
+  response = sendRequest(engineURL, query);
+
+  if (response.body.starts_with("SEARCH ERROR")) {
+
+    log.ERROR("Search failure on old engine", response, context);
+
+    return new Error("There was an internal search error.");
+
+  } else {
+
+    // 将响应转换为结果列表，清理结果等
+
+    // ...结果逻辑在这里...
+
+    return results;
+
+  }
+
+}
+
+// 这个函数查询新搜索引擎并处理响应
+
+function queryNewEngine(query, context) {
+
+  engineURL = NEW_SEARCH_ENGINE_URL + '/query';
+
+  response = sendRequest(engineURL, query);
+
+  if (response.type == "error") {
+
+    log.ERROR("Search failure on new engine", response, context);
+
+    return new Error("There was an internal search error.");
+
+  } else {
+
+    // 将新引擎响应转换为结果列表
+
+    // ...结果逻辑在这里...
+
+    return results;
+
+  }
+
+}
+```
+
+
+预计迁移将持续几周。由于新特性被包装在特性标志中，团队可以在新搜索引擎代码完全测试和优化之前集成它。现在，他们可以花时间使用真实生产数据改进代码。由于新旧搜索引擎代码被分离到不同的函数中，他们可以在不更改共享代码的情况下进行这些改进。此外，由于可以直接调用新代码而无需创建模拟标志状态，因此更容易为新代码添加单元测试。
+
+当需要退役旧搜索引擎并归档特性标志时，清理工作最少，不太可能引起合并冲突。
+
+清理步骤如下：
+
+1. 删除`executeSearch`和`queryOldEngine`函数。
+2. 将`queryNewEngine`重命名为`executeSearch`。
+3. 在`queryNewEngine`中，将`log.ERROR`消息从`"Search failure on new engine"`更改为仅`"Search failure"`，因为现在只有一个引擎了。
+
+### 避免额外的重构
+
+`queryOldEngine` 和 `queryNewEngine` 都包含类似的代码。这个示例的另一个版本甚至可能包含更多在两个函数之间重复的代码行。您可能想要通过将重复的代码移动到一个共享函数中来进一步重构。
+
+有几个原因不进行代码去重。
+
+- 代码并非为长期维护而设计。迁移完成后，重复的代码将被删除。
+- 在您改进 `queryNewEngine` 时，可能会有短期的维护工作。过早的重构可能会比帮助更多地阻碍维护。
+
+我们推荐一个常见的重构格言，称为[《三的法则》](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))：在代码重复三次或更多次之前，不要为了去重而进行重构。
+
+## 提高代码质量
+
+在代码中添加特性标志增加了其灵活性，但也可能增加复杂性。代码越复杂，诊断和纠正意外问题就越困难。
+
+您可以使用各种技术来确保特性标志帮助您实现代码的目标。
+
+以下是一些您可以遵循的指导方针，以确保您编写高质量的代码：
+
+
+### 避免在调用接口中传递标志状态
+
+当您使用特性标志来改变组件的行为时，请在组件**内部**执行标志评估。
+
+可能很想在调用接口中添加一个专用参数，并从外部发送标志状态。然而，改变组件的接口意味着所有调用该组件的代码也必须改变，一旦标志被移除，又需要再次改变。
+
+考虑我们之前用作示例的 `executeSearch` 函数。它调用 `ldclient.variation` 在其自己的实现内部评估标志。
+
+如果我们将那个调用移到 `getSearchResults` 并将标志值作为参数传递给 `executeSearch`，简化后的代码将如下所示：
+
+伪代码
+
+```
+function getSearchResults(query, context) {
+  // 1. 解析查询以便引擎可以使用
+
+  // ...查询解析逻辑在这里...
+
+  // 2. 将搜索查询发送到后端搜索引擎
+
+  //    带有特性标志值
+
+  useNewEngine = ldclient.variation("use-new-search-engine", context, false);
+
+  response = executeSearch(parsedQuery, context, useNewEngine);
+
+  return response;
+}
+
+// `useNewEngine` 现在在调用中提供
+
+function executeSearch(query, context, useNewEngine) {
+  if (useNewEngine == true) {
+    return queryNewEngine(query, context);
+  } else {
+    return queryOldEngine(query, context);
+  }
+}
+```
+
+
+我们以标志为导向的重构目的是为了通过分离出需要改变的代码，并将其包含在专用函数中，来减少合并冲突。不幸的是，在 `getSearchResults` 中放入标志评估代码，给它带来了它不需要的更多责任，并消除了重构的好处。
+
+在这个例子中，改变的接口只有一个调用者。当改变有多个调用者的函数和模块时，保持接口不变的好处更大。鉴于改变频繁使用的代码的其他风险，这一点尤其重要。
+
+### 标志可以随时改变
+
+您的代码执行得越频繁，当一个关键标志被改变时，您的代码在执行中途的可能性就越大。如果您的代码构建方式期望标志状态在代码路径的开始和结束之间保持一致，它可能会导致特别难以调试的问题。
+
+避免这个问题的一种方法是使用 LaunchDarkly 的自定义角色功能来限制谁可以访问该标志。
+
+要了解更多信息，请阅读[自定义角色](https://docs.launchdarkly.com/home/account/custom-roles)。
+
+这可能会使改变标志变得更加困难，在某些情况下可能是好事，但它也增加了您开发过程中的摩擦。与其使改变更加困难，不如提高代码的健壮性。
+
+以下示例使用一个服务，该服务将批量数据通过处理管道发送。每个批次必须经过三个处理步骤：规范化、重新标记和存储。
+
+一个专用服务执行这些步骤中的每一个。存储步骤始终是最后一个，但规范化和重新标记可以以任何顺序发生。每个服务负责将数据批次发送到下一个服务。
+
+有两种可能的顺序可以执行处理步骤。顺序是使用一个名为 `process-order` 的特性标志选择的，该标志有 `normalize-first` 和 `relabel-first` 两种变化。
+
+`normalize-first` 顺序是：
+
+1. 规范化
+2. 重新标记
+3. 存储
+
+`relabel-first` 顺序如下：
+
+1. 重新标记
+2. 规范化
+3. 存储
+
+每个服务负责将其输出发送到下一步。
+
+在每个服务处理后评估 `process-order` 标志并使用此来决定下一步是很诱人的。然而，如果在处理中途标志被翻转，这可能会导致问题。
+
+如果标志被设置为 `normalize-first`，则批次从规范化服务开始。在该服务完成处理之前，有人翻转了标志以启用 `relabel-first` 过程。当规范化服务完成处理时，它将评估 `process-order` 标志并使用 `relabel-first` 顺序，在该顺序中，规范化步骤后跟存储。这个数据批次应该被发送到重新标记服务，因为它还没有被重新标记，但它将被发送到存储服务。
+
+这是一个需要在整个多个步骤中保持标志一致性的情况示例。标志应该为每个批次评估一次，并且该值应该在服务之间的调用中发送。
+
+## 结论
+
+在本指南中，我们涵盖了：
+
+- 使用代码引用在您的代码库中找到特性标志
+- 何时以及如何重构以简化您的代码
+- 如何通过标志提高代码质量
