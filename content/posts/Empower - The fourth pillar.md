@@ -1,3 +1,16 @@
+---
+id: Empower - The fourth pillar
+aliases: []
+tags:
+  - vim
+authors:
+  - joey5403
+categories:
+  - Tech
+date: "2024-10-20"
+title: Empower - The fourth pillar
+---
+
 ## What is Empower?
 
 Empower, the fourth and final pillar of feature management, reimagines the process of giving users access to your software. It applies especially, though not exclusively to managing entitlements. In a software context, [“entitlements”](https://launchdarkly.com/blog/how-to-manage-entitlements-with-feature-flags/) refers to the act of enabling or disabling features, services, and products for customers. For example, when you unlock your full application for a customer who had previously been using an abbreviated trial version, you have managed an entitlement.

@@ -1,3 +1,16 @@
+---
+id: Learn - The third pillar
+aliases: []
+tags:
+  - vim
+authors:
+  - joey5403
+categories:
+  - Tech
+date: "2024-10-20"
+title: Learn - The third pillar
+---
+
 ## What is Learn?
 
 The Learn pillar of feature management focuses on enabling all teams to better understand how software changes affect users and systems. It is designed for the entire product delivery team: [developers](https://launchdarkly.com/solutions/development-teams/), [DevOps and site reliability engineers (SREs)](https://launchdarkly.com/solutions/devops-site-reliability-engineer-teams/), and product managers (PMs).

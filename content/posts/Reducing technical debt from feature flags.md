@@ -1,3 +1,16 @@
+---
+id: Reducing technical debt from feature flags
+aliases: []
+tags:
+  - vim
+authors:
+  - joey5403
+categories:
+  - Tech
+date: "2024-10-20"
+title: Reducing technical debt from feature flags
+---
+
 # Reducing technical debt from feature flags
 
 ##### Read time: 16 minutes

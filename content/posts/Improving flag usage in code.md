@@ -1,3 +1,16 @@
+---
+id: Improving flag usage in code
+aliases: []
+tags:
+  - vim
+authors:
+  - joey5403
+categories:
+  - Tech
+date: "2024-10-20"
+title: Improving flag usage in code
+---
+
 # Improving flag usage in code
 
 ##### Read time: 10 minutes

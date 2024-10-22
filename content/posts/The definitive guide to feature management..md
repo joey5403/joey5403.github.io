@@ -1,3 +1,16 @@
+---
+id: The definitive guide to feature management.
+aliases: []
+tags:
+  - vim
+authors:
+  - joey5403
+categories:
+  - Tech
+date: "2024-10-20"
+title: The definitive guide to feature management.
+---
+
 #### What is feature management?
 
 Feature management is a new class of software development tools and techniques powered by feature flags. A **feature flag** is a lever of control within your code (an _if-else_ statement) that decouples code deployments from feature releases. Developers have used some variation of feature flags for years. But when it comes to enjoying the full benefits of feature flags, many have only scratched the surface.

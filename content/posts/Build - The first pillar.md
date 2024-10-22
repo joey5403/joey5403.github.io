@@ -1,3 +1,16 @@
+---
+id: Build - The first pillar
+aliases: []
+tags:
+  - vim
+authors:
+  - joey5403
+categories:
+  - Tech
+date: "2024-10-20"
+title: Build - The first pillar
+---
+
 ## What is Build?
 
 The Build pillar addresses the use of feature flags for building and delivering new features, bug fixes, and code changes of any kind. While much of this category deals with release management, we've named it "Build" because of the critical role feature flags also play in pre-release activities. Such activities might include trunk-based development, testing in production, and rollout planning.

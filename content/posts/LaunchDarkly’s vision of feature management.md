@@ -1,3 +1,16 @@
+---
+id: LaunchDarkly’s vision of feature management
+aliases: []
+tags:
+  - vim
+authors:
+  - joey5403
+categories:
+  - Tech
+date: "2024-10-20"
+title: LaunchDarkly’s vision of feature management
+---
+
 ## Software powers the world. LaunchDarkly empowers all teams to deliver and control their software.
 
 Theoretically, teams can engage in all four pillars of feature management without relying on a dedicated feature management tool. In many cases, engineers will construct a patchwork solution for feature flag management in-house. Some organizations, however, do build and use world-class homegrown systems. But in our experience, the latter is the exception. 
