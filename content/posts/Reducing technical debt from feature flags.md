@@ -2,7 +2,7 @@
 id: Reducing technical debt from feature flags
 aliases: []
 tags:
-  - vim
+  - feature toggle
 authors:
   - joey5403
 categories:

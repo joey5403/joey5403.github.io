@@ -2,7 +2,7 @@
 id: LaunchDarkly’s vision of feature management
 aliases: []
 tags:
-  - vim
+  - feature toggle
 authors:
   - joey5403
 categories:

@@ -2,7 +2,7 @@
 id: Learn - The third pillar
 aliases: []
 tags:
-  - vim
+  - feature toggle
 authors:
   - joey5403
 categories:

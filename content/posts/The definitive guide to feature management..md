@@ -2,7 +2,7 @@
 id: The definitive guide to feature management.
 aliases: []
 tags:
-  - vim
+  - feature toggle
 authors:
   - joey5403
 categories:

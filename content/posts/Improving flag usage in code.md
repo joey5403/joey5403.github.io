@@ -2,7 +2,7 @@
 id: Improving flag usage in code
 aliases: []
 tags:
-  - vim
+  - feature toggle
 authors:
   - joey5403
 categories:
