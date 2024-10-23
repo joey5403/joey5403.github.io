@@ -11,6 +11,7 @@ refLinksErrorLevel: warning
 minify:
   disableXML: true
   minifyOutput: true
+hasCJKLanguage: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -18,6 +19,7 @@ params:
   description: "Joey的个人博客"
   keywords: [Blog, Portfolio, PaperMod]
   author: Joey 
+  social: true
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -43,7 +45,7 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    #favicon: "<link / abs url>"
+    favicon: "favicon.png"
     #favicon16x16: "<link / abs url>"
     #favicon32x32: "<link / abs url>"
     #apple_touch_icon: "<link / abs url>"
@@ -51,8 +53,8 @@ params:
 
   label:
     text: "黄庄以北"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    #icon: /apple-touch-icon.png
+    #iconHeight: 35
 
   # profile-mode
   profileMode:
@@ -83,10 +85,10 @@ params:
       url: "https://github.com/joey5403"
 
   analytics:
-  #  google:
-   #   SiteVerificationTag: "XYZabc"
+    # google:
+    #   SiteVerificationTag: "G-131243SMHQ"
   #  bing:
-   #   SiteVerificationTag: "XYZabc"
+  #    SiteVerificationTag: "XYZabc"
   #  yandex:
   #    SiteVerificationTag: "XYZabc"
 
@@ -128,6 +130,8 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    
   highlight:
     noClasses: false
     # anchorLineNos: true
