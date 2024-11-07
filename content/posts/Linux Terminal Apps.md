@@ -1,9 +1,7 @@
 ---
-date: 2024-08-21
 authors:
   - joey5403
 title: Linux Terminal Apps
-draft: true
 tags: 
   - Linux
   - Terminal
@@ -48,7 +46,8 @@ https://github.com/pimutils/vdirsyncer
 
 
 # weechat
-一直在抚琴
+一直在挂机的irc客户端
+
 
 # vim
 这个就不评价了
