@@ -1,5 +1,5 @@
 ---
-date: 2024-08-21
+lastmod: 2024-08-21
 authors:
   - joey5403
 title: Istio Error Flag

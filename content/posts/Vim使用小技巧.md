@@ -7,7 +7,7 @@ authors:
   - joey5403
 categories:
   - Tech
-date: "2024-08-28"
+lastmod: "2024-08-28"
 title: Vim使用小技巧
 ---
 
