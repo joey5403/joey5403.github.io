@@ -2,7 +2,7 @@
 authors:
   - joey5403
 title: Learn excalidraw
-lastmod: 2024-11-07
+lastmod: 2024-11-08
 tags: 
   - archetect
   - draw
