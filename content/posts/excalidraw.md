@@ -4,7 +4,7 @@ authors:
 title: Learn excalidraw
 lastmod: 2024-11-08
 tags: 
-  - archetect
+  - architect
   - draw
 categories: 
   - Tech
