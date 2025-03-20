@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Draw on 黄庄以北</title>
+    <link>https://joeyzheng.tech/tags/draw/</link>
+    <description>Recent content in Draw on 黄庄以北</description>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://joeyzheng.tech/tags/draw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn excalidraw</title>
+      <link>https://joeyzheng.tech/posts/excalidraw/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/excalidraw/</guid>
+      <description>https://excalidraw.com/ Keyboard shortcuts Tools
+Tool Press This Hand (panning tool) H Selection V or 1 Rectangle R or 2 Diamond D or 3 Ellipse O or 4 Arrow A or 5 Line L or 6 Draw P or 7 Text T or 8 Insert image 9 Eraser E or 0 Frame tool F Laser pointer K Pick a color from the canvas I or Shift + S or Shift + G Edit line/arrow points Ctrl + Enter Edit text / add label Enter Pick a color from canvas Enter or Shift + Enter Finish editing (text editor) Esc or Ctrl + Enter Curved arrow A + click + click + click Curved line L + click + click + click Add a new line (text editor) Q Prevent arrow binding Ctrl Add/ Update link for a selected shape Ctrl + K View</description>
+    </item>
+  </channel>
+</rss>

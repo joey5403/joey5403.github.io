@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 黄庄以北</title>
+    <link>https://joeyzheng.tech/posts/</link>
+    <description>Recent content in Posts on 黄庄以北</description>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://joeyzheng.tech/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《道德经》译文精简版</title>
+      <link>https://joeyzheng.tech/posts/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%AF%91%E6%96%87%E7%B2%BE%E7%AE%80%E7%89%88/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%AF%91%E6%96%87%E7%B2%BE%E7%AE%80%E7%89%88/</guid>
+      <description>第一章 道可道（可以语言交流的道）， 非常道（非真正意义上的道）； 名可名（可以明确定义的名）， 非常名（非真正意义上的名）。 无名天地之始（天地在开</description>
+    </item>
+    <item>
+      <title>道德经</title>
+      <link>https://joeyzheng.tech/posts/%E9%81%93%E5%BE%B7%E7%BB%8F/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/%E9%81%93%E5%BE%B7%E7%BB%8F/</guid>
+      <description>【第一章】道可道，非常道；名可名，非常名。无名天地之始，有名万物之母。故常无欲，以观其妙；常有欲，以观其徼（jiào）。此两者同出而异名，同</description>
+    </item>
+    <item>
+      <title>十年Kubernetes：过去、现在和未来</title>
+      <link>https://joeyzheng.tech/posts/10-years-of-kubernetes--past-present-and-future.zh/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/10-years-of-kubernetes--past-present-and-future.zh/</guid>
+      <description>十年Kubernetes：过去、现在和未来 翻译自https://thenewstack.io/10-years-of-kubernetes-</description>
+    </item>
+    <item>
+      <title>如何成为首席工程师</title>
+      <link>https://joeyzheng.tech/posts/how-to-become-a-principal-engineer.zh/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/how-to-become-a-principal-engineer.zh/</guid>
+      <description>文章: 虚拟讨论会：如何成为首席工程师 翻译自https://www.infoq.com/articles/virtual-panel-prin</description>
+    </item>
+    <item>
+      <title>Learn excalidraw</title>
+      <link>https://joeyzheng.tech/posts/excalidraw/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/excalidraw/</guid>
+      <description>https://excalidraw.com/ Keyboard shortcuts Tools
+Tool Press This Hand (panning tool) H Selection V or 1 Rectangle R or 2 Diamond D or 3 Ellipse O or 4 Arrow A or 5 Line L or 6 Draw P or 7 Text T or 8 Insert image 9 Eraser E or 0 Frame tool F Laser pointer K Pick a color from the canvas I or Shift + S or Shift + G Edit line/arrow points Ctrl + Enter Edit text / add label Enter Pick a color from canvas Enter or Shift + Enter Finish editing (text editor) Esc or Ctrl + Enter Curved arrow A + click + click + click Curved line L + click + click + click Add a new line (text editor) Q Prevent arrow binding Ctrl Add/ Update link for a selected shape Ctrl + K View</description>
+    </item>
+    <item>
+      <title>Linux Terminal Apps</title>
+      <link>https://joeyzheng.tech/posts/linux-terminal-apps/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/linux-terminal-apps/</guid>
+      <description>zellij 把这个放在最前面的目的，是因为这是后面所有软件的外壳。 终端的分屏工具，原来我是用tmux的，目前已完全换到了zellij，同类软件还有sc</description>
+    </item>
+    <item>
+      <title>Build - The first pillar</title>
+      <link>https://joeyzheng.tech/posts/build---the-first-pillar/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/build---the-first-pillar/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Build - The first pillar</title>
+      <link>https://joeyzheng.tech/posts/feature-management-02/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-02/</guid>
+      <description>What is Build? The Build pillar addresses the use of feature flags for building and delivering new features, bug fixes, and code changes of any kind. While much of this category deals with release management, we&amp;rsquo;ve named it &amp;ldquo;Build&amp;rdquo; because of the critical role feature flags also play in pre-release activities. Such activities might include trunk-based development, testing in production, and rollout planning. Traditional software development is reactive: teams push</description>
+    </item>
+    <item>
+      <title>Empower - The fourth pillar</title>
+      <link>https://joeyzheng.tech/posts/empower---the-fourth-pillar/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/empower---the-fourth-pillar/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Empower - The fourth pillar</title>
+      <link>https://joeyzheng.tech/posts/feature-management-05/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-05/</guid>
+      <description>What is Empower? Empower, the fourth and final pillar of feature management, reimagines the process of giving users access to your software. It applies especially, though not exclusively to managing entitlements. In a software context, “entitlements” refers to the act of enabling or disabling features, services, and products for customers. For example, when you unlock your full</description>
+    </item>
+    <item>
+      <title>Hexagonal architecture pattern</title>
+      <link>https://joeyzheng.tech/posts/hexagonal-architecture-pattern/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/hexagonal-architecture-pattern/</guid>
+      <description>Intent The hexagonal architecture pattern, which is also known as the ports and adapters pattern, was proposed by Dr. Alistair Cockburn in 2005. It aims to create loosely coupled architectures where application components can be tested independently, with no dependencies on data stores or user interfaces (UIs). This pattern helps prevent technology lock-in of data stores and UIs. This makes it easier to change the technology stack over time, with limited or no impact to business logic.</description>
+    </item>
+    <item>
+      <title>Improving flag usage in code</title>
+      <link>https://joeyzheng.tech/posts/improving-flag-usage-in-code/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/improving-flag-usage-in-code/</guid>
+      <description>Improving flag usage in code Read time: 10 minutes Last edited: Sep 18, 2024 Overview This guide provides best practices and suggestions for improving code that uses feature flags. These practices can improve both code quality and ease of maintenance. You can use code in tandem with your feature flags to maintain and improve the resilience of your process, including improving flag hygiene, giving your team more flexibility, refactoring flagged</description>
+    </item>
+    <item>
+      <title>LaunchDarkly’s vision of feature management</title>
+      <link>https://joeyzheng.tech/posts/feature-management-06/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-06/</guid>
+      <description>Software powers the world. LaunchDarkly empowers all teams to deliver and control their software. Theoretically, teams can engage in all four pillars of feature management without relying on a dedicated feature management tool. In many cases, engineers will construct a patchwork solution for feature flag management in-house. Some organizations, however, do build and use world-class homegrown systems. But in our experience, the latter is the exception. Unsurprisingly, LaunchDarkly contends that,</description>
+    </item>
+    <item>
+      <title>LaunchDarkly’s vision of feature management</title>
+      <link>https://joeyzheng.tech/posts/launchdarklys-vision-of-feature-management/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/launchdarklys-vision-of-feature-management/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Learn - The third pillar</title>
+      <link>https://joeyzheng.tech/posts/feature-management-04/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-04/</guid>
+      <description>What is Learn? The Learn pillar of feature management focuses on enabling all teams to better understand how software changes affect users and systems. It is designed for the entire product delivery team: developers , DevOps and site reliability engineers (SREs) , and product managers (PMs). Of all the pillars, Learn is especially concerned with helping software orgs become more data-driven. As a part of this, it provides mechanisms for</description>
+    </item>
+    <item>
+      <title>Learn - The third pillar</title>
+      <link>https://joeyzheng.tech/posts/learn---the-third-pillar/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/learn---the-third-pillar/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Operate - The second pillar</title>
+      <link>https://joeyzheng.tech/posts/feature-management-03/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-03/</guid>
+      <description>What is Operate? Operate, the second of the Four Pillars of Feature Management, encompasses feature flag use cases that improve the operational health of your application. It entails making feature flags a mission-critical piece of your operations. As deployment speeds and infrastructural complexity go up, so does the need for operational safeguards. Feature management is that safeguard. Teams that use feature flags via a feature management platform reduce risk and</description>
+    </item>
+    <item>
+      <title>Operate - The second pillar</title>
+      <link>https://joeyzheng.tech/posts/operate---the-second-pillar/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/operate---the-second-pillar/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Reducing technical debt from feature flags</title>
+      <link>https://joeyzheng.tech/posts/reducing-technical-debt-from-feature-flags/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/reducing-technical-debt-from-feature-flags/</guid>
+      <description>Reducing technical debt from feature flags Read time: 16 minutes Last edited: Oct 15, 2024 Overview This guide provides ways to reduce and eliminate technical debt related to feature flags using LaunchDarkly. Like all debt, technical debt accumulates over time, but you can mitigate that debt over time if you put effective processes in place before you need them. In this guide, we&amp;rsquo;ll explore: The challenge of technical debt The</description>
+    </item>
+    <item>
+      <title>The definitive guide to feature management.</title>
+      <link>https://joeyzheng.tech/posts/feature-management-01/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-01/</guid>
+      <description>What is feature management? Feature management is a new class of software development tools and techniques powered by feature flags. A feature flag is a lever of control within your code (an if-else statement) that decouples code deployments from feature releases. Developers have used some variation of feature flags for years. But when it comes to enjoying the full benefits of feature flags, many have only scratched the surface. At</description>
+    </item>
+    <item>
+      <title>The definitive guide to feature management.</title>
+      <link>https://joeyzheng.tech/posts/the-definitive-guide-to-feature-management./</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/the-definitive-guide-to-feature-management./</guid>
+      <description>翻译自 https://launchdarkly.com/the-definitive-guide-to-feature-management/ 什么是特性管理？ 特性管理是由特性标志（feature flags）驱动的一类新的软件开发工具和技术。一个特性标志是代码中的一个控制杠杆</description>
+    </item>
+    <item>
+      <title>代码分支管理</title>
+      <link>https://joeyzheng.tech/posts/%E4%BB%A3%E7%A0%81%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/%E4%BB%A3%E7%A0%81%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/</guid>
+      <description>拆分为两套代码所存在的问题： 使用不同分支后，大型修改的合并将变得极为困难，不论是从上游合并到下游，还是下游合并到上游，都将成为一个耗时巨大的</description>
+    </item>
+    <item>
+      <title>NvChad</title>
+      <link>https://joeyzheng.tech/posts/nvchad/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/nvchad/</guid>
+      <description>Ctrl+n 打开/关闭 NvimTree</description>
+    </item>
+    <item>
+      <title>Vim使用小技巧</title>
+      <link>https://joeyzheng.tech/posts/vim%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/vim%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/</guid>
+      <description>如何键入真正的Tab字符？ 如果你想要在 Vim 中输入真正的 Tab 字符，你可以在插入模式下按 Ctrl-V，然后按 Tab。这将插入一个真正的 Tab 字符，而不是</description>
+    </item>
+    <item>
+      <title>Istio Error Flag</title>
+      <link>https://joeyzheng.tech/posts/istio-error-flag/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/istio-error-flag/</guid>
+      <description>HTTP and TCP
+Long name Short name Description NoHealthyUpstream UH No healthy upstream hosts in upstream cluster in addition to 503 response code. UpstreamConnectionFailure UF Upstream connection failure in addition to 503 response code. UpstreamOverflow UO Upstream overflow (circuit breaking ) in addition to 503 response code. NoRouteFound NR No route configured for a given request in addition to 404 response code or no matching filter chain for a downstream connection.</description>
+    </item>
+    <item>
+      <title>Google I/O connection 2024</title>
+      <link>https://joeyzheng.tech/posts/google/</link>
+      <pubDate>Thu, 08 Aug 2024 10:21:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/google/</guid>
+      <description>进场 Google Cloud 最新动态 在GoogleCloud上用Gemini构建web应用 使用数据库构建生成式AI应用 午餐 使用Ray 超越RAG Firebase</description>
+    </item>
+    <item>
+      <title>图数据库</title>
+      <link>https://joeyzheng.tech/posts/%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description>核心概念 顶点vertex 边edge cypher查询语言 主要选型 apache AGE neo4j 101 基于apache AGE的基础测试 -- 开启 LOAD &amp;#39;age&amp;#39;; SET search_path = ag_catalog, &amp;#34;$user&amp;#34;, public; SELECT * FROM ag_catalog.drop_graph(&amp;#39;geae&amp;#39;, true); SELECT create_graph(&amp;#39;geae&amp;#39;); SELECT</description>
+    </item>
+    <item>
+      <title>明史-世宗</title>
+      <link>https://joeyzheng.tech/posts/%E6%98%8E%E5%8F%B2-%E4%B8%96%E5%AE%97/</link>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/%E6%98%8E%E5%8F%B2-%E4%B8%96%E5%AE%97/</guid>
+      <description>明史-世宗</description>
+    </item>
+    <item>
+      <title>素书</title>
+      <link>https://joeyzheng.tech/posts/%E7%B4%A0%E4%B9%A6/</link>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/%E7%B4%A0%E4%B9%A6/</guid>
+      <description>原始章 夫道、德、仁、义、礼五者，一体也。 道者，人之所蹈，使万物不知其所由。德者，人之所得，使万物各得其所欲。仁者，人之所亲，有慈慧恻隐之心，</description>
+    </item>
+    <item>
+      <title>有效激励&amp;有效沟通培训笔记</title>
+      <link>https://joeyzheng.tech/posts/%E6%9C%89%E6%95%88%E6%BF%80%E5%8A%B1%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/%E6%9C%89%E6%95%88%E6%BF%80%E5%8A%B1%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0/</guid>
+      <description>有效激励 多种需求共存，只有一个占主导地位。 需求结构动态变化，从内向外，从下向上。 双因素理论。 保健因素，激励因素。 组织目标-高水平努力-个体需</description>
+    </item>
+    <item>
+      <title>bypass chrome Your connection isn&#39;t private</title>
+      <link>https://joeyzheng.tech/posts/bypass-chrome-your-connection-isnt-private/</link>
+      <pubDate>Wed, 14 Sep 2022 10:21:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/bypass-chrome-your-connection-isnt-private/</guid>
+      <description>How to Bypass Google Chrome show &amp;ldquo;Your connection isn&amp;rsquo;t private&amp;rdquo;
+step 1. Click a blank section of the denial page.
+step 2. Using your keyboard, type thisisunsafe. This will add the website to a safe list, where you should not be prompted again.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://joeyzheng.tech/posts/untitled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/untitled/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

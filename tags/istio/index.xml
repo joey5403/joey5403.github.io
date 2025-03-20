@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Istio on 黄庄以北</title>
+    <link>https://joeyzheng.tech/tags/istio/</link>
+    <description>Recent content in Istio on 黄庄以北</description>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://joeyzheng.tech/tags/istio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Istio Error Flag</title>
+      <link>https://joeyzheng.tech/posts/istio-error-flag/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/istio-error-flag/</guid>
+      <description>HTTP and TCP
+Long name Short name Description NoHealthyUpstream UH No healthy upstream hosts in upstream cluster in addition to 503 response code. UpstreamConnectionFailure UF Upstream connection failure in addition to 503 response code. UpstreamOverflow UO Upstream overflow (circuit breaking ) in addition to 503 response code. NoRouteFound NR No route configured for a given request in addition to 404 response code or no matching filter chain for a downstream connection.</description>
+    </item>
+  </channel>
+</rss>

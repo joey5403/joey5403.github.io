@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Terminal on 黄庄以北</title>
+    <link>https://joeyzheng.tech/tags/terminal/</link>
+    <description>Recent content in Terminal on 黄庄以北</description>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://joeyzheng.tech/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Terminal Apps</title>
+      <link>https://joeyzheng.tech/posts/linux-terminal-apps/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/linux-terminal-apps/</guid>
+      <description>zellij 把这个放在最前面的目的，是因为这是后面所有软件的外壳。 终端的分屏工具，原来我是用tmux的，目前已完全换到了zellij，同类软件还有sc</description>
+    </item>
+  </channel>
+</rss>

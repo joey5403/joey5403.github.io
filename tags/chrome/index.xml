@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chrome on 黄庄以北</title>
+    <link>https://joeyzheng.tech/tags/chrome/</link>
+    <description>Recent content in Chrome on 黄庄以北</description>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Sep 2022 10:21:00 +0000</lastBuildDate>
+    <atom:link href="https://joeyzheng.tech/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bypass chrome Your connection isn&#39;t private</title>
+      <link>https://joeyzheng.tech/posts/bypass-chrome-your-connection-isnt-private/</link>
+      <pubDate>Wed, 14 Sep 2022 10:21:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/bypass-chrome-your-connection-isnt-private/</guid>
+      <description>How to Bypass Google Chrome show &amp;ldquo;Your connection isn&amp;rsquo;t private&amp;rdquo;
+step 1. Click a blank section of the denial page.
+step 2. Using your keyboard, type thisisunsafe. This will add the website to a safe list, where you should not be prompted again.</description>
+    </item>
+  </channel>
+</rss>

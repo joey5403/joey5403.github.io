@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Architect on 黄庄以北</title>
+    <link>https://joeyzheng.tech/tags/architect/</link>
+    <description>Recent content in Architect on 黄庄以北</description>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://joeyzheng.tech/tags/architect/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>十年Kubernetes：过去、现在和未来</title>
+      <link>https://joeyzheng.tech/posts/10-years-of-kubernetes--past-present-and-future.zh/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/10-years-of-kubernetes--past-present-and-future.zh/</guid>
+      <description>十年Kubernetes：过去、现在和未来 翻译自https://thenewstack.io/10-years-of-kubernetes-</description>
+    </item>
+    <item>
+      <title>如何成为首席工程师</title>
+      <link>https://joeyzheng.tech/posts/how-to-become-a-principal-engineer.zh/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/how-to-become-a-principal-engineer.zh/</guid>
+      <description>文章: 虚拟讨论会：如何成为首席工程师 翻译自https://www.infoq.com/articles/virtual-panel-prin</description>
+    </item>
+    <item>
+      <title>Learn excalidraw</title>
+      <link>https://joeyzheng.tech/posts/excalidraw/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/excalidraw/</guid>
+      <description>https://excalidraw.com/ Keyboard shortcuts Tools
+Tool Press This Hand (panning tool) H Selection V or 1 Rectangle R or 2 Diamond D or 3 Ellipse O or 4 Arrow A or 5 Line L or 6 Draw P or 7 Text T or 8 Insert image 9 Eraser E or 0 Frame tool F Laser pointer K Pick a color from the canvas I or Shift + S or Shift + G Edit line/arrow points Ctrl + Enter Edit text / add label Enter Pick a color from canvas Enter or Shift + Enter Finish editing (text editor) Esc or Ctrl + Enter Curved arrow A + click + click + click Curved line L + click + click + click Add a new line (text editor) Q Prevent arrow binding Ctrl Add/ Update link for a selected shape Ctrl + K View</description>
+    </item>
+    <item>
+      <title>Hexagonal architecture pattern</title>
+      <link>https://joeyzheng.tech/posts/hexagonal-architecture-pattern/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/hexagonal-architecture-pattern/</guid>
+      <description>Intent The hexagonal architecture pattern, which is also known as the ports and adapters pattern, was proposed by Dr. Alistair Cockburn in 2005. It aims to create loosely coupled architectures where application components can be tested independently, with no dependencies on data stores or user interfaces (UIs). This pattern helps prevent technology lock-in of data stores and UIs. This makes it easier to change the technology stack over time, with limited or no impact to business logic.</description>
+    </item>
+  </channel>
+</rss>

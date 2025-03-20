@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Feature Toggle on 黄庄以北</title>
+    <link>https://joeyzheng.tech/tags/feature-toggle/</link>
+    <description>Recent content in Feature Toggle on 黄庄以北</description>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://joeyzheng.tech/tags/feature-toggle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build - The first pillar</title>
+      <link>https://joeyzheng.tech/posts/build---the-first-pillar/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/build---the-first-pillar/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Build - The first pillar</title>
+      <link>https://joeyzheng.tech/posts/feature-management-02/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-02/</guid>
+      <description>What is Build? The Build pillar addresses the use of feature flags for building and delivering new features, bug fixes, and code changes of any kind. While much of this category deals with release management, we&amp;rsquo;ve named it &amp;ldquo;Build&amp;rdquo; because of the critical role feature flags also play in pre-release activities. Such activities might include trunk-based development, testing in production, and rollout planning. Traditional software development is reactive: teams push</description>
+    </item>
+    <item>
+      <title>Empower - The fourth pillar</title>
+      <link>https://joeyzheng.tech/posts/empower---the-fourth-pillar/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/empower---the-fourth-pillar/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Empower - The fourth pillar</title>
+      <link>https://joeyzheng.tech/posts/feature-management-05/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-05/</guid>
+      <description>What is Empower? Empower, the fourth and final pillar of feature management, reimagines the process of giving users access to your software. It applies especially, though not exclusively to managing entitlements. In a software context, “entitlements” refers to the act of enabling or disabling features, services, and products for customers. For example, when you unlock your full</description>
+    </item>
+    <item>
+      <title>Improving flag usage in code</title>
+      <link>https://joeyzheng.tech/posts/improving-flag-usage-in-code/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/improving-flag-usage-in-code/</guid>
+      <description>Improving flag usage in code Read time: 10 minutes Last edited: Sep 18, 2024 Overview This guide provides best practices and suggestions for improving code that uses feature flags. These practices can improve both code quality and ease of maintenance. You can use code in tandem with your feature flags to maintain and improve the resilience of your process, including improving flag hygiene, giving your team more flexibility, refactoring flagged</description>
+    </item>
+    <item>
+      <title>LaunchDarkly’s vision of feature management</title>
+      <link>https://joeyzheng.tech/posts/feature-management-06/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-06/</guid>
+      <description>Software powers the world. LaunchDarkly empowers all teams to deliver and control their software. Theoretically, teams can engage in all four pillars of feature management without relying on a dedicated feature management tool. In many cases, engineers will construct a patchwork solution for feature flag management in-house. Some organizations, however, do build and use world-class homegrown systems. But in our experience, the latter is the exception. Unsurprisingly, LaunchDarkly contends that,</description>
+    </item>
+    <item>
+      <title>LaunchDarkly’s vision of feature management</title>
+      <link>https://joeyzheng.tech/posts/launchdarklys-vision-of-feature-management/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/launchdarklys-vision-of-feature-management/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Learn - The third pillar</title>
+      <link>https://joeyzheng.tech/posts/feature-management-04/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-04/</guid>
+      <description>What is Learn? The Learn pillar of feature management focuses on enabling all teams to better understand how software changes affect users and systems. It is designed for the entire product delivery team: developers , DevOps and site reliability engineers (SREs) , and product managers (PMs). Of all the pillars, Learn is especially concerned with helping software orgs become more data-driven. As a part of this, it provides mechanisms for</description>
+    </item>
+    <item>
+      <title>Learn - The third pillar</title>
+      <link>https://joeyzheng.tech/posts/learn---the-third-pillar/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/learn---the-third-pillar/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Operate - The second pillar</title>
+      <link>https://joeyzheng.tech/posts/feature-management-03/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-03/</guid>
+      <description>What is Operate? Operate, the second of the Four Pillars of Feature Management, encompasses feature flag use cases that improve the operational health of your application. It entails making feature flags a mission-critical piece of your operations. As deployment speeds and infrastructural complexity go up, so does the need for operational safeguards. Feature management is that safeguard. Teams that use feature flags via a feature management platform reduce risk and</description>
+    </item>
+    <item>
+      <title>Operate - The second pillar</title>
+      <link>https://joeyzheng.tech/posts/operate---the-second-pillar/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/operate---the-second-pillar/</guid>
+      <description>翻译自https://launchdarkly.com/the-definitive-guide-to-feature-management</description>
+    </item>
+    <item>
+      <title>Reducing technical debt from feature flags</title>
+      <link>https://joeyzheng.tech/posts/reducing-technical-debt-from-feature-flags/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/reducing-technical-debt-from-feature-flags/</guid>
+      <description>Reducing technical debt from feature flags Read time: 16 minutes Last edited: Oct 15, 2024 Overview This guide provides ways to reduce and eliminate technical debt related to feature flags using LaunchDarkly. Like all debt, technical debt accumulates over time, but you can mitigate that debt over time if you put effective processes in place before you need them. In this guide, we&amp;rsquo;ll explore: The challenge of technical debt The</description>
+    </item>
+    <item>
+      <title>The definitive guide to feature management.</title>
+      <link>https://joeyzheng.tech/posts/feature-management-01/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/feature-management-01/</guid>
+      <description>What is feature management? Feature management is a new class of software development tools and techniques powered by feature flags. A feature flag is a lever of control within your code (an if-else statement) that decouples code deployments from feature releases. Developers have used some variation of feature flags for years. But when it comes to enjoying the full benefits of feature flags, many have only scratched the surface. At</description>
+    </item>
+    <item>
+      <title>The definitive guide to feature management.</title>
+      <link>https://joeyzheng.tech/posts/the-definitive-guide-to-feature-management./</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://joeyzheng.tech/posts/the-definitive-guide-to-feature-management./</guid>
+      <description>翻译自 https://launchdarkly.com/the-definitive-guide-to-feature-management/ 什么是特性管理？ 特性管理是由特性标志（feature flags）驱动的一类新的软件开发工具和技术。一个特性标志是代码中的一个控制杠杆</description>
+    </item>
+  </channel>
+</rss>
