@@ -1,6 +1,6 @@
 baseURL: "https://joeyzheng.tech/"
 title: 黄庄以北
-paginate: 5
+pagination.pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
