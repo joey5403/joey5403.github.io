@@ -1,8 +1,5 @@
 ---
-authors:
-  - joey5403
 title: Learn excalidraw
-lastmod: 2024-11-08
 published: 2024-11-08
 tags: 
   - architect

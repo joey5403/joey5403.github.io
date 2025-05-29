@@ -3,8 +3,6 @@ id: Build - The first pillar
 
 tags:
   - feature toggle
-authors:
-  - joey5403
 category: Tech
 date: "2024-10-20"
 published: 2024-10-20

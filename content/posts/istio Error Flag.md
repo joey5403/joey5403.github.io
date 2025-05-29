@@ -1,8 +1,5 @@
 ---
-lastmod: 2024-08-21
 published: 2024-08-21
-authors:
-  - joey5403
 title: Istio Error Flag
 tags: 
   - Istio

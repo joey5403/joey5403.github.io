@@ -1,9 +1,6 @@
 ---
 title: Google I/O connection 2024
-lastmod: 2024-08-08 10:21:00
 published: 2024-08-08 10:21:00
-authors:
-  - joey5403
 tags:
   - Google
 category: Tech

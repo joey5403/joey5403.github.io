@@ -3,10 +3,7 @@ id: NvChad
 
 tags:
   - vim
-authors:
-  - joey5403
 category: Tech
-lastmode: 2024-08-28
 published: 2024-08-28
 title: NvChad
 ---
