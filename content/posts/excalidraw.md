@@ -7,8 +7,7 @@ published: 2024-11-08
 tags: 
   - architect
   - draw
-category: 
-  - Tech
+category: Tech
 series:
 ---
 

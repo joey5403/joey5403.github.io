@@ -6,8 +6,7 @@ authors:
 title: Istio Error Flag
 tags: 
   - Istio
-category: 
-  - Tech
+category: Tech
 series:
 ---
 
