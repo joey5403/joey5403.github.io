@@ -1,13 +1,14 @@
 ---
 id: Improving flag usage in code
-aliases: []
+
 tags:
   - feature toggle
 authors:
   - joey5403
 categories:
   - Tech
-lastmod: "2024-10-20"
+lastmode: 2024-10-20
+published: "2024-10-20"
 title: Improving flag usage in code
 ---
 

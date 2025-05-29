@@ -1,12 +1,13 @@
 ---
-aliases: []
+
 tags:
   - architect
 authors:
   - joey5403
 categories:
   - Tech
-lastmod: "2024-10-20"
+lastmode: 2024-10-20
+published: "2024-10-20"
 title: Hexagonal architecture pattern
 ---
 

@@ -1,13 +1,14 @@
 ---
 id: Vim使用小技巧
-aliases: []
+
 tags:
   - vim
 authors:
   - joey5403
 categories:
   - Tech
-lastmod: "2024-08-28"
+lastmode: 2024-08-28
+published: "2024-08-28"
 title: Vim使用小技巧
 ---
 

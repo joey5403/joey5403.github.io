@@ -1,6 +1,6 @@
 ---
 id: LaunchDarkly’s vision of feature management
-aliases: []
+
 tags:
   - feature toggle
 authors:
@@ -8,6 +8,7 @@ authors:
 categories:
   - Tech
 date: "2024-10-20"
+published: "2024-10-20"
 title: LaunchDarkly’s vision of feature management
 ---
 

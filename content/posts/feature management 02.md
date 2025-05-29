@@ -1,6 +1,6 @@
 ---
 id: Build - The first pillar
-aliases: []
+
 tags:
   - feature toggle
 authors:
@@ -8,6 +8,7 @@ authors:
 categories:
   - Tech
 date: "2024-10-20"
+published: "2024-10-20"
 title: Build - The first pillar
 ---
 

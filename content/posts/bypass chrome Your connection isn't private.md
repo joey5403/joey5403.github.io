@@ -1,6 +1,7 @@
 ---
 title: bypass chrome Your connection isn't private
 lastmod: 2022-09-14 10:21:00
+published: 2022-09-14 10:21:00
 authors:
   - joey5403
 tags: 
