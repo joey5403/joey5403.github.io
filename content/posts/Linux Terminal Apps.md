@@ -1,4 +1,5 @@
 ---
+image: https://img.joeyzheng.tech/ob-1730971484759.png
 title: Linux Terminal Apps
 published: 2024-11-07
 tags: 

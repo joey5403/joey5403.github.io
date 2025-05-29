@@ -1,4 +1,5 @@
 ---
+image: https://img.joeyzheng.tech/ob-1748516485289.png
 
 tags:
   - architect
