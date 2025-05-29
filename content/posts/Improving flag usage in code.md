@@ -5,10 +5,9 @@ tags:
   - feature toggle
 authors:
   - joey5403
-categories:
-  - Tech
+category: Tech
 lastmode: 2024-10-20
-published: "2024-10-20"
+published: 2024-10-20
 title: Improving flag usage in code
 ---
 

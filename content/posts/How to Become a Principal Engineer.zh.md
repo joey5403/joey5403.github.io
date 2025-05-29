@@ -4,10 +4,9 @@ tags:
   - architect
 authors:
   - joey5403
-categories:
-  - Tech
+category: Tech
 lastmode: 2024-12-30
-published: "2024-12-30"
+published: 2024-12-30
 title: 如何成为首席工程师
 ---
 

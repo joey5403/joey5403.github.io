@@ -4,8 +4,7 @@ tags:
   - architect
 authors:
   - joey5403
-categories:
-  - Tech
+category: Tech
 lastmod: 2024-12-30
 title: 十年Kubernetes：过去、现在和未来
 ---

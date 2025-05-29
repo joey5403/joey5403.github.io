@@ -6,8 +6,7 @@ authors:
   - joey5403
 tags: 
   - chrome
-categories:
-  - Tech
+category: Tech
 series:
 ---
 How to Bypass Google Chrome show "Your connection isn't private"

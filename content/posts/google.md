@@ -6,8 +6,7 @@ authors:
   - joey5403
 tags:
   - Google
-categories:
-  - Tech
+category: Tech
 series: 
 draft: false
 ---

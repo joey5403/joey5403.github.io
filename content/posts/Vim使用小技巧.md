@@ -5,10 +5,9 @@ tags:
   - vim
 authors:
   - joey5403
-categories:
-  - Tech
+category: Tech
 lastmode: 2024-08-28
-published: "2024-08-28"
+published: 2024-08-28
 title: Vim使用小技巧
 ---
 
