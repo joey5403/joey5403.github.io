@@ -1,4 +1,6 @@
 ---
+image: https://img.joeyzheng.tech/ob-1748506572250.png
+
 published: 2024-12-30
 tags:
   - architect
