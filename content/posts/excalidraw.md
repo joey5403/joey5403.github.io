@@ -1,4 +1,5 @@
 ---
+image: https://img.joeyzheng.tech/ob-1748506988691.png
 title: Learn excalidraw
 published: 2024-11-08
 tags: 
