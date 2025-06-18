@@ -1,9 +1,9 @@
 ---
+tags:
+  - vim
+category: Tech
+published: 2023-08-28
 title: Start - All because Marco Dorantes Blog
-profileName: 黄庄以北
-postId: '24'
-categories:
-  - 1
 ---
 It's a very sudden thought.  
 I start a personal blog,  
