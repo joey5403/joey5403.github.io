@@ -1,7 +1,7 @@
 ---
 title: PDCA, away impovement
 date: 2023-09-07 17:30:00
-draft: true
+status: draft
 ---
 # PDCA aways impovement
 #work/methodology

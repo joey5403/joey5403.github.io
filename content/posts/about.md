@@ -4,6 +4,7 @@ title: About
 aliases: []
 tags: []
 date: 1987-10-12
+status: hidden
 ---
 
 # Now

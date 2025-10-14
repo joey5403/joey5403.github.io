@@ -1,6 +1,7 @@
 ---
 title: Kitty
 date: 2022-10-08 18:50:00
+Category: Tech
 ---
 
 # Kitty

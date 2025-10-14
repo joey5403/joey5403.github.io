@@ -3,7 +3,7 @@ image: https://img.joeyzheng.tech/ob-1748516485289.png
 title: 如何成为首席工程师
 date: 2024-12-30
 tags: architect
-category: Tech
+category: SoftwareEngineering
 published: 2024-12-30
 
 ---
