@@ -1,5 +1,7 @@
 ---
 id: NvChad
+title: NvChad
+date: 2024-08-26
 aliases: []
 tags: []
 ---
@@ -10,5 +12,4 @@ tags: []
 ```
 Ctrl+n
 打开/关闭 NvimTree
-```
 ```
