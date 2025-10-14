@@ -1,11 +1,11 @@
 ---
 image: https://img.joeyzheng.tech/ob-1748516485289.png
-
-tags:
-  - architect
+title: 如何成为首席工程师
+date: 2024-12-30
+tags: architect
 category: Tech
 published: 2024-12-30
-title: 如何成为首席工程师
+
 ---
 
 # 文章: 虚拟讨论会：如何成为首席工程师

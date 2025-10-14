@@ -1,8 +1,8 @@
 ---
 id: NvChad
-
-tags:
-  - vim
+title: NvChad
+date: 2024-08-28
+tags: vim
 category: Tech
 published: 2024-08-28
 title: NvChad

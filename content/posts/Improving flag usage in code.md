@@ -1,13 +1,11 @@
 ---
-
-
 id: Improving flag usage in code
-
-tags:
-  - feature toggle
+title: Improving flag usage in code
+date: 2024-10-20
+tags:  feature toggle
 category: Tech
 published: 2024-10-20
-title: Improving flag usage in code
+
 ---
 
 # Improving flag usage in code

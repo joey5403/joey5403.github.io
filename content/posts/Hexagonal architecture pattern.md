@@ -1,10 +1,10 @@
 ---
-
-tags:
-  - architect
+title: Hexagonal architecture pattern
+date: 2024-10-20
+tags: architect
 category: Tech
 published: 2024-10-20
-title: Hexagonal architecture pattern
+
 ---
 
 

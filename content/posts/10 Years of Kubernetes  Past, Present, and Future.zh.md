@@ -3,8 +3,7 @@ title: 十年Kubernetes：过去、现在和未来
 image: https://img.joeyzheng.tech/ob-1748506572250.png-30
 date: 2024-12-30
 published: 2024-12-30
-tags:
-  - architect
+tags:  architect
 category: Tech
 
 ---

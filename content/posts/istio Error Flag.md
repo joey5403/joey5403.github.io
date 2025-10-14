@@ -1,8 +1,8 @@
 ---
 published: 2024-08-21
 title: Istio Error Flag
-tags: 
-  - Istio
+date: 2024-08-21
+tags:   Istio
 category: Tech
 series:
 ---

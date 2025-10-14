@@ -2,9 +2,8 @@
 image: https://img.joeyzheng.tech/ob-1730971484759.png
 title: Linux Terminal Apps
 published: 2024-11-07
-tags: 
-  - Linux
-  - Terminal
+date: 2024-11-07
+tags:  Linux,Terminal
 category: Tech
 series:
 ---

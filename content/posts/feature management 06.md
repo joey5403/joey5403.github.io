@@ -1,12 +1,11 @@
 ---
 id: LaunchDarkly’s vision of feature management
-
-tags:
-  - feature toggle
-category: Tech
-date: "2024-10-20"
-published: 2024-10-20
 title: LaunchDarkly’s vision of feature management
+date: 2024-10-20
+tags: feature toggle
+category: Tech
+
+published: 2024-10-20
 ---
 
 ## Software powers the world. LaunchDarkly empowers all teams to deliver and control their software.

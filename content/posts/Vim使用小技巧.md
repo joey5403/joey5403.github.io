@@ -1,11 +1,11 @@
 ---
 id: Vim使用小技巧
-
-tags:
-  - vim
+title: Vim使用小技巧
+date: 2024-08-28
+tags:  vim
 category: Tech
 published: 2024-08-28
-title: Vim使用小技巧
+
 ---
 
 # 如何键入真正的Tab字符？
