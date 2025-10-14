@@ -1,7 +1,7 @@
 ---
 title: Software Architect
 date: 2021-10-11 11:55:00
-Category: 
+Category: SoftwareEngineering
 ---
 # What is a software Architect?
 
