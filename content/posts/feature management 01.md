@@ -1,12 +1,12 @@
 ---
 id: The definitive guide to feature management.
-
+title: The definitive guide to feature management.
 tags:
   - feature toggle
 category: Tech
 date: "2024-10-20"
 published: 2024-10-20
-title: The definitive guide to feature management.
+
 ---
 
 #### What is feature management?

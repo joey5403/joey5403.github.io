@@ -1,7 +1,8 @@
 ---
-image: https://img.joeyzheng.tech/ob-1748506930090.png
 title: bypass chrome Your connection isn't private
+image: https://img.joeyzheng.tech/ob-1748506930090.png
 published: 2022-09-14 10:21:00
+date: 2022-09-14 10:21:00
 tags: 
   - chrome
 category: Tech
