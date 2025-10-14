@@ -1,12 +1,12 @@
 ---
 id: Build - The first pillar
-title: Build - The first pillar
-date: 2024-10-20
-tags: feature toggle
+aliases: []
+tags:
+  - feature toggle
 category: Tech
-
+date: 2024-10-20
 published: 2024-10-20
-
+title: Build - The first pillar
 ---
 
 ## What is Build?

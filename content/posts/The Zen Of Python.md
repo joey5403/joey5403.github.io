@@ -1,5 +1,5 @@
 ---
-=id: The Zen Of Python
+id: The Zen Of Python
 aliases: []
 tags:
   - tech

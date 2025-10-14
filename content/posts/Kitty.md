@@ -1,7 +1,10 @@
 ---
-title: Kitty
-date: 2022-10-08 18:50:00
+id: Kitty
+aliases: []
+tags: []
 Category: Tech
+date: 2022-10-08 18:50:00
+title: Kitty
 ---
 
 # Kitty

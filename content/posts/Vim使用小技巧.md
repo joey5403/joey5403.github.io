@@ -2,7 +2,8 @@
 id: Vim使用小技巧
 title: Vim使用小技巧
 date: 2024-08-28
-tags:  vim
+tags: 
+  - vim
 category: Tech
 published: 2024-08-28
 

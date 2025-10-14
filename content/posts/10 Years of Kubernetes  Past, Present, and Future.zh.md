@@ -1,11 +1,13 @@
 ---
-title: 十年Kubernetes：过去、现在和未来
-image: https://img.joeyzheng.tech/ob-1748506572250.png-30
-date: 2024-12-30
-published: 2024-12-30
-tags:  architect
+id: 10 Years of Kubernetes  Past, Present, and Future.zh
+aliases: []
+tags:
+  - architect
 category: Tech
-
+date: 2024-12-30
+image: https://img.joeyzheng.tech/ob-1748506572250.png-30
+published: 2024-12-30
+title: 十年Kubernetes：过去、现在和未来
 ---
 
 

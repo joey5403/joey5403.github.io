@@ -1,13 +1,14 @@
 ---
 id: The definitive guide to feature management.
-title: The definitive guide to feature management.
-date: 2024-10-20
-tags: feature toggle
+aliases: []
+tags:
+  - feature toggle
 category: Tech
-slug: feature-management-01
+date: 2024-10-20
 lang: en
 published: 2024-10-20
-
+slug: feature-management-01
+title: The definitive guide to feature management.
 ---
 
 #### What is feature management?

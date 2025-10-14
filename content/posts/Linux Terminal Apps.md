@@ -1,11 +1,14 @@
 ---
-image: https://img.joeyzheng.tech/ob-1730971484759.png
-title: Linux Terminal Apps
-published: 2024-11-07
-date: 2024-11-07
-tags:  Linux,Terminal
+id: Linux Terminal Apps
+aliases: []
+tags:
+  - Linux
+  - Terminal
 category: Tech
-series:
+date: 2024-11-07
+image: https://img.joeyzheng.tech/ob-1730971484759.png
+published: 2024-11-07
+title: Linux Terminal Apps
 ---
 
 # zellij

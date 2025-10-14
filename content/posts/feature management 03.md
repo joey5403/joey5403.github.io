@@ -1,12 +1,12 @@
 ---
 id: Operate - The second pillar
-title: Operate - The second pillar
-date: 2024-10-20
-tags: feature toggle
+aliases: []
+tags:
+  - feature toggle
 category: Tech
-
+date: 2024-10-20
 published: 2024-10-20
-
+title: Operate - The second pillar
 ---
 
 ## What is Operate?

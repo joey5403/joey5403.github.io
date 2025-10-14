@@ -1,8 +1,11 @@
 ---
-title: Start - All because Marco Dorantes Blog
-date: 2023-08-28
-tags: vim
+id: Start - All because Marco Dorantes Blog
+aliases: []
+tags:
+  - vim
 category: Tech
+date: 2023-08-28
+title: Start - All because Marco Dorantes Blog
 ---
 It's a very sudden thought.  
 I start a personal blog,  

@@ -1,13 +1,14 @@
 ---
 id: Reducing technical debt from feature flags
-title: Reducing technical debt from feature flags
-date: 2024-10-20
-tags: feature toggle
+aliases: []
+tags:
+  - feature toggle
 category: Tech
-
+date: 2024-10-20
 published: 2024-10-20
-
+title: Reducing technical debt from feature flags
 ---
+
 
 # Reducing technical debt from feature flags
 

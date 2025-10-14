@@ -1,11 +1,13 @@
 ---
-title: bypass chrome Your connection isn't private
+id: bypass chrome Your connection isn't private
+aliases: []
+tags:
+  - chrome
+category: Tech
+date: 2022-09-14 10:21:00
 image: https://img.joeyzheng.tech/ob-1748506930090.png
 published: 2022-09-14 10:21:00
-date: 2022-09-14 10:21:00
-tags: chrome
-category: Tech
-series:
+title: bypass chrome Your connection isn't private
 ---
 How to Bypass Google Chrome show "Your connection isn't private"
 

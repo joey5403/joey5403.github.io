@@ -1,12 +1,14 @@
 ---
-image: https://img.joeyzheng.tech/IMG_20240808_092349.jpg
-title: Google I/O connection 2024
-published: 2024-08-08 10:21:00
-date: 2024-08-08 10:21:00
-tags: Google
+id: google
+aliases: []
+tags:
+  - Google
 category: Tech
-series: 
+date: 2024-08-08 10:21:00
+image: https://img.joeyzheng.tech/IMG_20240808_092349.jpg
+published: 2024-08-08 10:21:00
 status: hidden
+title: Google I/O connection 2024
 ---
 # 进场
 ![](https://img.joeyzheng.tech/IMG_20240808_085247.jpg)  

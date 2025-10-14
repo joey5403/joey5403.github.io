@@ -1,11 +1,13 @@
 ---
-image: https://img.joeyzheng.tech/ob-1748516485289.png
-title: 如何成为首席工程师
-date: 2024-12-30
-tags: architect
+id: How to Become a Principal Engineer.zh
+aliases: []
+tags:
+  - architect
 category: SoftwareEngineering
+date: 2024-12-30
+image: https://img.joeyzheng.tech/ob-1748516485289.png
 published: 2024-12-30
-
+title: 如何成为首席工程师
 ---
 
 # 文章: 虚拟讨论会：如何成为首席工程师

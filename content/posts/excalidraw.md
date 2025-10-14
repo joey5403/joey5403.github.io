@@ -1,11 +1,14 @@
 ---
-image: https://img.joeyzheng.tech/ob-1748506988691.png
-title: Learn excalidraw
-published: 2024-11-08
-date: 2024-11-08
-tags: architect,draw
+id: excalidraw
+aliases: []
+tags:
+  - architect
+  - draw
 category: Tech
-series:
+date: 2024-11-08
+image: https://img.joeyzheng.tech/ob-1748506988691.png
+published: 2024-11-08
+title: Learn excalidraw
 ---
 
 https://excalidraw.com/
