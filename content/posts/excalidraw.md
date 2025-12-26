@@ -15,7 +15,6 @@ https://excalidraw.com/
 
 ### Keyboard shortcuts
 
-
 **Tools**
 
 |Tool|Press This|
