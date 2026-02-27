@@ -2,7 +2,25 @@
 id: The definitive guide to feature management.
 aliases: []
 tags:
-  - feature toggle
+  - feature-management
+  - feature-flags
+  - feature-toggle
+  - progressive-delivery
+  - experimentation
+  - ab-testing
+  - devops
+  - dora-metrics
+  - continuous-delivery
+  - launchdarkly
+  - four-pillars
+  - 特性管理
+  - 功能开关
+  - 渐进式交付
+  - 实验
+  - A/B测试
+  - DevOps
+  - DORA指标
+  - 持续交付
 category: Tech
 date: 2024-10-20
 lang: en

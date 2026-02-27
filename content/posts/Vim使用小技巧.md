@@ -8,6 +8,22 @@ tags:
   - tips
   - editor
   - productivity
+  - keybindings
+  - configuration
+  - clipboard
+  - indentation
+  - formatting
+  - termux
+  - Vim
+  - Neovim
+  - 技巧
+  - 编辑器
+  - 效率
+  - 快捷键
+  - 配置
+  - 剪贴板
+  - 缩进
+  - 格式化
 category: Tech
 published: 2024-08-28
 
@@ -81,4 +97,3 @@ set expandtab
 
 有时termux的终端无法输入中文，可以通过以下方法解决：
 将termux最下面的快捷栏向左滑动，就会进入一个文本输入模式，此时可以激活输入法，切换到中文输入法后，再向右滑动快捷栏，就可以在vim中直接输入中文了。
-

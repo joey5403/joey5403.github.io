@@ -8,6 +8,20 @@ tags:
   - shortcuts
   - productivity
   - tools
+  - whiteboard
+  - collaboration
+  - 绘图
+  - 草图
+  - 可视化
+  - excalidraw
+  - diagramming
+  - whiteboard
+  - shortcuts
+  - collaboration
+  - productivity
+  - 绘图工具
+  - 快捷键
+  - 可视化
 category: Tech
 date: 2024-11-08
 image: https://img.joeyzheng.tech/ob-1748506988691.png

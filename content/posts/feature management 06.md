@@ -2,7 +2,21 @@
 id: LaunchDarkly’s vision of feature management
 aliases: []
 tags:
-  - feature toggle
+  - feature-management
+  - feature-flags
+  - feature-toggle
+  - feature-management-platform
+  - continuous-delivery
+  - experimentation
+  - release-management
+  - devops
+  - launchdarkly
+  - 产品管理
+  - 特性管理
+  - 功能开关
+  - 实验
+  - 发布管理
+  - 持续交付
 category: Tech
 date: 2024-10-20
 published: 2024-10-20

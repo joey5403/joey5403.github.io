@@ -2,7 +2,17 @@
 id: Empower - The fourth pillar
 aliases: []
 tags:
-  - feature toggle
+  - feature-management
+  - feature-flags
+  - empower
+  - entitlements
+  - customer-targeting
+  - progressive-delivery
+  - launchdarkly
+  - 产品管理
+  - 权限管理
+  - 客户定向
+  - 功能授权
 category: Tech
 date: 2024-10-20
 published: 2024-10-20

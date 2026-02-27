@@ -2,7 +2,19 @@
 id: Learn - The third pillar
 aliases: []
 tags:
-  - feature toggle
+  - feature-management
+  - experimentation
+  - ab-testing
+  - a/b-testing
+  - holistic-experimentation
+  - learn
+  - metrics
+  - continuous-delivery
+  - launchdarkly
+  - 实验
+  - A/B测试
+  - 指标
+  - 全面实验
 category: Tech
 date: 2024-10-20
 published: 2024-10-20
