@@ -6,25 +6,15 @@ aliases: []
 tags:
   - neovim
   - nvchad
-  - nvim
-  - nvim-tree
   - keybindings
-  - plugins
+  - nvim-tree
   - configuration
-  - tips
   - editor
   - 编辑器
   - 键位绑定
-  - 插件
   - 文件树
-  - 使用技巧
-  - NvChad
-  - configuration
-  - theme
-  - setup
   - 配置
-  - 主题
-  - 安装
+  - 使用技巧
 ---
 
 

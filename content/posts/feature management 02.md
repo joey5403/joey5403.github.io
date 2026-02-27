@@ -3,22 +3,17 @@ id: Build - The first pillar
 aliases: []
 tags:
   - feature-management
-  - feature-flags
   - build
-  - trunk-based-development
   - continuous-delivery
-  - canary-release
-  - targeted-rollouts
+  - trunk-based-development
   - testing-in-production
-  - rollout
   - progressive-delivery
-  - 功能开关
   - 构建
-  - 基于主干的开发
   - 持续交付
+  - 基于主干的开发
   - 金丝雀发布
-  - 针对性发布
   - 在生产中测试
+  - 渐进式交付
 category: Tech
 date: 2024-10-20
 published: 2024-10-20

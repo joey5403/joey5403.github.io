@@ -6,22 +6,13 @@ tags:
   - vim
   - neovim
   - tips
+  - configuration
   - editor
   - productivity
-  - keybindings
-  - configuration
-  - clipboard
-  - indentation
-  - formatting
-  - termux
-  - Vim
-  - Neovim
   - 技巧
   - 编辑器
-  - 效率
-  - 快捷键
   - 配置
-  - 剪贴板
+  - 快捷键
   - 缩进
   - 格式化
 category: Tech

@@ -4,21 +4,14 @@ aliases: []
 tags:
   - feature-management
   - feature-flags
-  - feature-toggle
   - progressive-delivery
-  - experimentation
-  - ab-testing
-  - devops
+  - four-pillars
   - dora-metrics
   - continuous-delivery
-  - launchdarkly
-  - four-pillars
   - 特性管理
   - 功能开关
   - 渐进式交付
-  - 实验
-  - A/B测试
-  - DevOps
+  - 四大支柱
   - DORA指标
   - 持续交付
 category: Tech

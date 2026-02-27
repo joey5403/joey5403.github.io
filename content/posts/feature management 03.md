@@ -3,20 +3,17 @@ id: Operate - The second pillar
 aliases: []
 tags:
   - feature-management
-  - feature-flags
   - operate
-  - observability
   - kill-switch
-  - circuit-breaker
   - dynamic-configuration
-  - migrations
-  - sre
-  - ops
+  - observability
+  - circuit-breaker
   - 运维
-  - 运行
   - 功能开关
+  - 运行
   - 可观察性
-  - 安全迁移
+  - 动态配置
+  - 监控
 category: Tech
 date: 2024-10-20
 published: 2024-10-20
