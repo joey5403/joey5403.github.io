@@ -3,6 +3,10 @@ id: bypass chrome Your connection isn't private
 aliases: []
 tags:
   - chrome
+  - security
+  - privacy
+  - troubleshooting
+  - 安全
 category: Tech
 date: 2022-09-14 10:21:00
 image: https://img.joeyzheng.tech/ob-1748506930090.png

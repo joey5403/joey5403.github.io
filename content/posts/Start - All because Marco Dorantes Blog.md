@@ -2,7 +2,11 @@
 id: Start - All because Marco Dorantes Blog
 aliases: []
 tags:
-  - vim
+  - blog
+  - personal
+  - writing
+  - inspiration
+  - 博客
 category: Tech
 date: 2023-08-28
 title: Start - All because Marco Dorantes Blog

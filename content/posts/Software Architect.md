@@ -2,6 +2,13 @@
 title: Software Architect
 date: 2021-10-11 11:55:00
 Category: SoftwareEngineering
+tags:
+  - software-architecture
+  - architect
+  - software-engineering
+  - design
+  - 软件架构
+  - 架构师
 ---
 # What is a software Architect?
 

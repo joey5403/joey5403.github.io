@@ -2,7 +2,12 @@
 id: Reducing technical debt from feature flags
 aliases: []
 tags:
-  - feature toggle
+  - feature-toggle
+  - technical-debt
+  - software-engineering
+  - feature-management
+  - 技术债务
+  - 特性标志
 category: Tech
 date: 2024-10-20
 published: 2024-10-20

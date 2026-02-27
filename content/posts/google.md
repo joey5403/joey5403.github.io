@@ -6,16 +6,8 @@ tags:
   - google-io
   - google-cloud
   - gemini
-  - firebase
-  - ray
   - generative-ai
-  - rag
-  - database
-  - conference
   - 会议记录
-  - 生成式AI
-  - 数据库
-  - 谷歌
 category: Tech
 date: 2024-08-08 10:21:00
 image: https://img.joeyzheng.tech/IMG_20240808_092349.jpg

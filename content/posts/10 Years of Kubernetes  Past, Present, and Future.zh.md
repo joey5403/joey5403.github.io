@@ -3,6 +3,11 @@ id: 10 Years of Kubernetes  Past, Present, and Future.zh
 aliases: []
 tags:
   - architect
+  - kubernetes
+  - containers
+  - webassembly
+  - 容器
+  - 云原生
 category: Tech
 date: 2024-12-30
 image: https://img.joeyzheng.tech/ob-1748506572250.png-30

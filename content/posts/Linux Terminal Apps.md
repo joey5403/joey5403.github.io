@@ -4,6 +4,10 @@ aliases: []
 tags:
   - Linux
   - Terminal
+  - command-line
+  - tools
+  - 终端
+  - 工具
 category: Tech
 date: 2024-11-07
 image: https://img.joeyzheng.tech/ob-1730971484759.png
