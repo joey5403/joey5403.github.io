@@ -2,8 +2,12 @@
 id: Vim使用小技巧
 title: Vim使用小技巧
 date: 2024-08-28
-tags: 
+tags:
   - vim
+  - neovim
+  - tips
+  - editor
+  - productivity
 category: Tech
 published: 2024-08-28
 
@@ -77,5 +81,4 @@ set expandtab
 
 有时termux的终端无法输入中文，可以通过以下方法解决：
 将termux最下面的快捷栏向左滑动，就会进入一个文本输入模式，此时可以激活输入法，切换到中文输入法后，再向右滑动快捷栏，就可以在vim中直接输入中文了。
-
 

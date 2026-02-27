@@ -2,8 +2,12 @@
 id: excalidraw
 aliases: []
 tags:
-  - architect
-  - draw
+  - excalidraw
+  - diagram
+  - drawing
+  - shortcuts
+  - productivity
+  - tools
 category: Tech
 date: 2024-11-08
 image: https://img.joeyzheng.tech/ob-1748506988691.png
@@ -100,5 +104,3 @@ https://excalidraw.com/
 |Show background color picker|`G`|
 |Decrease font size|`Ctrl + Shift + <`|
 |Increase font size|`Ctrl + Shift + >`|
-
-

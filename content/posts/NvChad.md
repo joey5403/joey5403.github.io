@@ -3,7 +3,14 @@ id: NvChad
 title: NvChad
 date: 2024-08-26
 aliases: []
-tags: []
+tags:
+  - neovim
+  - nvchad
+  - nvim-tree
+  - nvim
+  - keybindings
+  - plugins
+  - tips
 ---
 
 
