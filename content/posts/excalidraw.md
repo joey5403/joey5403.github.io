@@ -3,17 +3,8 @@ id: excalidraw
 aliases: []
 tags:
   - excalidraw
-  - shortcuts
   - diagram
-  - drawing
-  - whiteboard
-  - productivity
-  - 快捷键
-  - 绘图
-  - 图表
-  - 白板
-  - 可视化
-  - 协作
+  - shortcuts
 category: Tech
 date: 2024-11-08
 image: https://img.joeyzheng.tech/ob-1748506988691.png

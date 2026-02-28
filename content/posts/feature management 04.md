@@ -4,14 +4,7 @@ aliases: []
 tags:
   - feature-management
   - experimentation
-  - holistic-experimentation
   - A/B-testing
-  - continuous-improvement
-  - 特性管理
-  - 实验
-  - 全面实验
-  - A/B测试
-  - 持续改进
 category: Tech
 date: 2024-10-20
 published: 2024-10-20

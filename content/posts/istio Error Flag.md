@@ -5,9 +5,6 @@ tags:
   - istio
   - envoy
   - networking
-  - observability
-  - error-flag
-  - 错误标志
 category: Tech
 date: 2024-08-21
 published: 2024-08-21

@@ -3,17 +3,8 @@ id: Build - The first pillar
 aliases: []
 tags:
   - feature-management
-  - build
   - continuous-delivery
-  - trunk-based-development
   - testing-in-production
-  - progressive-delivery
-  - 构建
-  - 持续交付
-  - 基于主干的开发
-  - 金丝雀发布
-  - 在生产中测试
-  - 渐进式交付
 category: Tech
 date: 2024-10-20
 published: 2024-10-20

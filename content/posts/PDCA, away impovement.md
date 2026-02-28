@@ -6,9 +6,6 @@ tags:
   - pdca
   - quality-management
   - continuous-improvement
-  - process-optimization
-  - 质量管理
-  - 持续改进
 ---
 # PDCA aways impovement
 #work/methodology

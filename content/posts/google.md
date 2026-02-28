@@ -4,10 +4,7 @@ aliases: []
 tags:
   - google
   - google-io
-  - google-cloud
-  - gemini
   - generative-ai
-  - 会议记录
 category: Tech
 date: 2024-08-08 10:21:00
 image: https://img.joeyzheng.tech/IMG_20240808_092349.jpg

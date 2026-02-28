@@ -5,9 +5,6 @@ tags:
   - kitty
   - terminal
   - copy-paste
-  - vim
-  - 终端
-  - 剪切板
 Category: Tech
 date: 2022-10-08 18:50:00
 title: Kitty

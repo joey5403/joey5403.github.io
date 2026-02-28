@@ -2,12 +2,9 @@
 id: Hexagonal architecture pattern
 aliases: []
 tags:
-  - architect
   - software-design
   - design-patterns
   - domain-driven-design
-  - 架构
-  - 设计模式
 category: Tech
 date: 2024-10-20
 published: 2024-10-20

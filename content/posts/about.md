@@ -6,9 +6,6 @@ tags:
   - about
   - personal
   - software-engineering
-  - opensource
-  - 个人
-  - 关于
 date: 1987-10-12
 status: hidden
 ---

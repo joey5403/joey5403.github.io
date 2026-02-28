@@ -6,9 +6,6 @@ tags:
   - software-architecture
   - architect
   - software-engineering
-  - design
-  - 软件架构
-  - 架构师
 ---
 # What is a software Architect?
 

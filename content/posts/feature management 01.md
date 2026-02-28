@@ -4,16 +4,7 @@ aliases: []
 tags:
   - feature-management
   - feature-flags
-  - progressive-delivery
-  - four-pillars
-  - dora-metrics
   - continuous-delivery
-  - 特性管理
-  - 功能开关
-  - 渐进式交付
-  - 四大支柱
-  - DORA指标
-  - 持续交付
 category: Tech
 date: 2024-10-20
 lang: en

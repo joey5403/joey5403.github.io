@@ -2,10 +2,8 @@
 id: The Zen Of Python
 aliases: []
 tags:
-  - tech
   - python
   - programming
-  - code
   - development
 category: Tech
 date: 2025-10-14

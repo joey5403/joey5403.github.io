@@ -6,15 +6,6 @@ tags:
   - vim
   - neovim
   - tips
-  - configuration
-  - editor
-  - productivity
-  - 技巧
-  - 编辑器
-  - 配置
-  - 快捷键
-  - 缩进
-  - 格式化
 category: Tech
 published: 2024-08-28
 

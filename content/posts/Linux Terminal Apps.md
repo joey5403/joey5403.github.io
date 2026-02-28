@@ -3,11 +3,8 @@ id: Linux Terminal Apps
 aliases: []
 tags:
   - Linux
-  - Terminal
+  - terminal
   - command-line
-  - tools
-  - 终端
-  - 工具
 category: Tech
 date: 2024-11-07
 image: https://img.joeyzheng.tech/ob-1730971484759.png

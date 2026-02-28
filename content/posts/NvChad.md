@@ -7,14 +7,6 @@ tags:
   - neovim
   - nvchad
   - keybindings
-  - nvim-tree
-  - configuration
-  - editor
-  - 编辑器
-  - 键位绑定
-  - 文件树
-  - 配置
-  - 使用技巧
 ---
 
 
