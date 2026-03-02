@@ -1,3 +1,15 @@
+---
+id: LazyVim
+aliases: []
+tags:
+  - claudecode
+category: Tech
+date: 2026-03-02
+published: 2026-03-02
+title: Claude Code Agent Teams 详解
+---
+
+
 # Claude Code Agent Teams 详解
 
 > 基于 Anthropic 官方文档：https://code.claude.com/docs/en/agent-teams
