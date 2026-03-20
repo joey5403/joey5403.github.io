@@ -6,7 +6,10 @@ tags:
   - software-architecture
   - architect
   - software-engineering
+image: http://img.joey5403.tech/ob-1774004125657.jpeg
 ---
+![]()
+
 # What is a software Architect?
 
 The definition in wikipedia is below:

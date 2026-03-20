@@ -8,6 +8,7 @@ tags:
 category: Tech
 date: 2025-10-14
 title: Python的禅
+image: http://img.joey5403.tech/ob-1774003917250.jpeg
 ---
 
 翻译自[https://peps.python.org/pep-0020](https://peps.python.org/pep-0020)
