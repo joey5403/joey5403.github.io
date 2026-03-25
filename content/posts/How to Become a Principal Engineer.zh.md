@@ -5,7 +5,7 @@ tags:
   - architect
 category: SoftwareEngineering
 date: 2024-12-30
-image: https://img.joeyzheng.tech/ob-1748516485289.png
+image: https://img.joeyzheng.tech/ob-1748516485289.png-30
 published: 2024-12-30
 title: 如何成为首席工程师
 ---
