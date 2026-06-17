@@ -6,11 +6,11 @@ tags:
   - programming
   - development
 category: Tech
-date: 2025-10-14
+date: 2025-10-14T00:00:00.000Z
 title: Python的禅
-image: http://img.joey5403.tech/ob-1774003917250.jpeg-30
+image: 'http://img.joey5403.tech/ob-1774003917250.jpeg-30'
+excerpt: '翻译自https://peps.python.org/pep-0020 1. 优美胜于丑陋 Beautiful is better than ugly. 2....'
 ---
-
 翻译自[https://peps.python.org/pep-0020](https://peps.python.org/pep-0020)
 
 1. 优美胜于丑陋

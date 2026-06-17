@@ -6,10 +6,11 @@ tags:
   - security
   - troubleshooting
 category: Tech
-date: 2022-09-14 10:21:00
-image: https://img.joeyzheng.tech/ob-1748506930090.png
-published: 2022-09-14 10:21:00
+date: 2022-09-14T10:21:00.000Z
+image: 'https://img.joeyzheng.tech/ob-1748506930090.png'
+published: 2022-09-14T10:21:00.000Z
 title: bypass chrome Your connection isn't private
+excerpt: 'How to Bypass Google Chrome show "Your connection isn''t private" step 1. Click a blank section of the denial page. step 2. Using your keyboard, type thisisunsafe....'
 ---
 How to Bypass Google Chrome show "Your connection isn't private"
 

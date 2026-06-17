@@ -6,11 +6,11 @@ tags:
   - continuous-delivery
   - testing-in-production
 category: Tech
-date: 2024-10-20
-published: 2024-10-20
+date: 2024-10-20T00:00:00.000Z
+published: 2024-10-20T00:00:00.000Z
 title: Build - The first pillar
+excerpt: 'What is Build? The Build pillar addresses the use of feature flags for building and delivering new features, bug fixes,...'
 ---
-
 ## What is Build?
 
 The Build pillar addresses the use of feature flags for building and delivering new features, bug fixes, and code changes of any kind. While much of this category deals with release management, we've named it "Build" because of the critical role feature flags also play in pre-release activities. Such activities might include trunk-based development, testing in production, and rollout planning.
@@ -61,7 +61,7 @@ Thus, at LaunchDarkly, we contend that the safest, fastest way to deliver softwa
 
 Testing in production frees you from the pain and inefficiency of Waterfall. Instead of waiting several weeks or months to ship simple code changes, you can get them out immediately. 
 
-![](https://images.prismic.io/launchdarkly/d5baecd6-f812-4717-be86-8820fb24d25f_atlassian.svg?auto=compress,format)
+![Atlassian LaunchDarkly customer quote logo](https://images.prismic.io/launchdarkly/d5baecd6-f812-4717-be86-8820fb24d25f_atlassian.svg?auto=compress,format)
 
 "We use LaunchDarkly to control risky changes. Sometimes there’s changes in the product that we can’t test effectively in development or in staging. And the only way we can really effectively test this is when we really get to production."
 
@@ -71,7 +71,7 @@ Senior Engineering Manager
 
 For many organizations, the first time they test a feature in production is the same day as the marketing launch for the release containing that feature. Feature flags allow engineers to test features in production far in advance of a marketing launch. So when Product or Marketing or whoever decides to release those features to customers, Engineering feels confident that those features won't break anything. Ben Nadel, founder at InVision and an avid LaunchDarkly customer, describes such confidence as ["intoxicating."](https://www.bennadel.com/blog/3766-my-personal-best-practices-for-using-launchdarkly-feature-flags.htm)
 
-![](https://images.prismic.io/launchdarkly/e51df588-1264-4d4c-8055-cbad569242f5_icims.svg?auto=compress,format)
+![iCIMS LaunchDarkly customer quote logo](https://images.prismic.io/launchdarkly/e51df588-1264-4d4c-8055-cbad569242f5_icims.svg?auto=compress,format)
 
 "Our engineers can deploy features as soon as they're done building them. And we [on the release team] can gradually release those features at a pace that matches our enterprise customers' tolerance for change."
 
@@ -81,7 +81,7 @@ Director of Release Management
 
 In the absence of feature flags, software releases can be nerve-wracking and stressful, even scary. But with feature flags, they are safe and forgettable. A big part of this can be attributed to the ability to test in production. Using feature flags as kill switches also plays a big part in making releases safe and boring. 
 
-![](https://images.prismic.io/launchdarkly/9a5acab5-840e-45c2-8127-806e758de9a6_honeycomb.png?auto=compress,format)
+![Honeycomb LaunchDarkly customer quote logo](https://images.prismic.io/launchdarkly/9a5acab5-840e-45c2-8127-806e758de9a6_honeycomb.png?auto=compress,format)
 
 "Everyone tests in production. Some of us do it on purpose."
 

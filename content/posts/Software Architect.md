@@ -1,12 +1,13 @@
 ---
 title: Software Architect
-date: 2021-10-11 11:55:00
+date: 2021-10-11T11:55:00.000Z
 Category: SoftwareEngineering
 tags:
   - software-architecture
   - architect
   - software-engineering
-image: http://img.joey5403.tech/ob-1774004125657.jpeg
+image: 'http://img.joey5403.tech/ob-1774004125657.jpeg'
+excerpt: '![]() What is a software Architect? The definition in wikipedia is below: A software architect is a software development expert who makes high-level design choices and tries to...'
 ---
 ![]()
 

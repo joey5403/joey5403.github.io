@@ -6,11 +6,11 @@ tags:
   - experimentation
   - A/B-testing
 category: Tech
-date: 2024-10-20
-published: 2024-10-20
+date: 2024-10-20T00:00:00.000Z
+published: 2024-10-20T00:00:00.000Z
 title: Learn - The third pillar
+excerpt: What is Learn? The Learn pillar of feature management focuses on enabling all teams to better understand how software...
 ---
-
 ## What is Learn?
 
 The Learn pillar of feature management focuses on enabling all teams to better understand how software changes affect users and systems. It is designed for the entire product delivery team: [developers](https://launchdarkly.com/solutions/development-teams/), [DevOps and site reliability engineers (SREs)](https://launchdarkly.com/solutions/devops-site-reliability-engineer-teams/), and product managers (PMs).
@@ -126,7 +126,7 @@ Once the experiment has run its course, and the ideal toolbar has been identifie
 
 In another example, [Stash](https://launchdarkly.com/case-studies/stash/), a New York-based financial services company, uses LaunchDarkly to run advanced experiments on back-end infrastructure. Before, the company lacked a way to run such tests. But now, engineers can measure things like the operational impact of their content personalization services. Further, they use LaunchDarkly’s Data Export Add-on to pump experimentation data to their internal analytics platform, where they aggregate all their testing data. This has given Stash a more comprehensive, granular view into customer engagement. As a result, the company has become more data-driven and elevated the quality of its product.
 
-![](https://images.prismic.io/launchdarkly/4ef8b46d-7e96-4bee-be0b-1bb49899e70f_stash.svg?auto=compress,format)
+![Stash LaunchDarkly customer quote logo](https://images.prismic.io/launchdarkly/4ef8b46d-7e96-4bee-be0b-1bb49899e70f_stash.svg?auto=compress,format)
 
 "LaunchDarkly has played a big part in helping us build a culture at Stash, where we experiment with everything. Not only that, it has enabled us to release new features way faster than before. The fact that we can manage software releases and support experimentation in the same platform is remarkable."
 

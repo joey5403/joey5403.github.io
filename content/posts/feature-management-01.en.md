@@ -1,18 +1,19 @@
 ---
-id: The definitive guide to feature management.
+id: feature-management-01-en
 aliases: []
 tags:
   - feature-management
   - feature-flags
   - continuous-delivery
 category: Tech
-date: 2024-10-20
+date: 2024-10-20T00:00:00.000Z
 lang: en
-published: 2024-10-20
-slug: feature-management-01
+published: 2024-10-20T00:00:00.000Z
+routeSlug: feature-management-01
+translationKey: feature-management-01
 title: The definitive guide to feature management.
+excerpt: What is feature management? Feature management is a new class of software development tools and techniques powered by feature flags....
 ---
-
 #### What is feature management?
 
 Feature management is a new class of software development tools and techniques powered by feature flags. A **feature flag** is a lever of control within your code (an _if-else_ statement) that decouples code deployments from feature releases. Developers have used some variation of feature flags for years. But when it comes to enjoying the full benefits of feature flags, many have only scratched the surface.
@@ -51,7 +52,7 @@ Feature management enables teams to improve their performance across the Four Ke
 
  _Source: “Accelerate: State of DevOps 2019.” DevOps Research & Assessment, p. 18_
 
-![](https://images.prismic.io/launchdarkly/9a5acab5-840e-45c2-8127-806e758de9a6_honeycomb.png?auto=compress,format)
+![Honeycomb LaunchDarkly customer quote logo](https://images.prismic.io/launchdarkly/9a5acab5-840e-45c2-8127-806e758de9a6_honeycomb.png?auto=compress,format)
 
 "Less than 0.1% of Honeycomb’s changes catastrophically fail. That is compared to an industry average, where roughly less than 5% is considered good performance, and many companies struggle to achieve anywhere between a 10-30% change fail rate. Only 1 out of 1000 of our deployments fail—in large part because LaunchDarkly allows us to toggle things on and off to make things safe."
 

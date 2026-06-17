@@ -4,12 +4,12 @@ aliases: []
 tags:
   - architect
 category: SoftwareEngineering
-date: 2024-12-30
-image: https://img.joeyzheng.tech/ob-1748516485289.png-30
-published: 2024-12-30
+date: 2024-12-30T00:00:00.000Z
+image: 'https://img.joeyzheng.tech/ob-1748516485289.png-30'
+published: 2024-12-30T00:00:00.000Z
 title: 如何成为首席工程师
+excerpt: '文章: 虚拟讨论会：如何成为首席工程师 翻译自https://www.infoq.com/articles/virtual-panel-principal-engineer/ Ben Linders, Joy Ebertz, Pablo...'
 ---
-
 # 文章: 虚拟讨论会：如何成为首席工程师
 翻译自[https://www.infoq.com/articles/virtual-panel-principal-engineer/](https://www.infoq.com/articles/virtual-panel-principal-engineer/)
 

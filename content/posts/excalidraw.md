@@ -6,12 +6,12 @@ tags:
   - diagram
   - shortcuts
 category: Tech
-date: 2024-11-08
-image: https://img.joeyzheng.tech/ob-1748506988691.png
-published: 2024-11-08
+date: 2024-11-08T00:00:00.000Z
+image: 'https://img.joeyzheng.tech/ob-1748506988691.png'
+published: 2024-11-08T00:00:00.000Z
 title: Learn excalidraw
+excerpt: 'https://excalidraw.com/ Keyboard shortcuts Tools ToolPress This ------ Hand (panning tool)H SelectionV or 1 RectangleR or 2 DiamondD or 3 EllipseO or 4 ArrowA or 5 LineL or 6...'
 ---
-
 https://excalidraw.com/
 
 ### Keyboard shortcuts

@@ -1,11 +1,14 @@
 ---
 id: booklist-for-ai
 aliases: []
-tags: []
-date: 2026-03-20
+tags:
+  - AI
+  - reading
+  - books
+date: 2026-03-20T00:00:00.000Z
 title: Booklist For AI
+excerpt: 面向 AI 时代的阅读书单，围绕独立思考、逻辑、存在主义、技术伦理和信息社会，整理适合建立判断力的经典读物。
 ---
-
 # Booklist For AI
 《谈谈方法》—— 笛卡尔  
 重点：如何独立思考、怀疑、求真  

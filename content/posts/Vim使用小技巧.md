@@ -1,16 +1,15 @@
 ---
 id: Vim使用小技巧
 title: Vim使用小技巧
-date: 2024-08-28
+date: 2024-08-28T00:00:00.000Z
 tags:
   - vim
   - neovim
   - tips
 category: Tech
-published: 2024-08-28
-
+published: 2024-08-28T00:00:00.000Z
+excerpt: 如何键入真正的Tab字符？ 如果你想要在 Vim 中输入真正的 Tab 字符，你可以在插入模式下按 Ctrl-V，然后按 Tab。这将插入一个真正的 Tab 字符，而不是空格。...
 ---
-
 # 如何键入真正的Tab字符？
 如果你想要在 Vim 中输入真正的 Tab 字符，你可以在插入模式下按 Ctrl-V，然后按 Tab。这将插入一个真正的 Tab 字符，而不是空格。
 

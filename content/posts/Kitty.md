@@ -6,10 +6,10 @@ tags:
   - terminal
   - copy-paste
 Category: Tech
-date: 2022-10-08 18:50:00
+date: 2022-10-08T18:50:00.000Z
 title: Kitty
+excerpt: 记录 Kitty 终端中 Emacs 或 Vim 场景下复制粘贴的问题，说明如何用 Shift 加鼠标选择绕开终端应用的选择模式。
 ---
-
 # Kitty
 
 ## can't copy in emacs -nw

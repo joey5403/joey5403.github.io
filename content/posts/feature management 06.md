@@ -6,11 +6,11 @@ tags:
   - release-management
   - feature-flags
 category: Tech
-date: 2024-10-20
-published: 2024-10-20
+date: 2024-10-20T00:00:00.000Z
+published: 2024-10-20T00:00:00.000Z
 title: LaunchDarkly’s vision of feature management
+excerpt: Software powers the world. LaunchDarkly empowers all teams to deliver and control their software....
 ---
-
 ## Software powers the world. LaunchDarkly empowers all teams to deliver and control their software.
 
 Theoretically, teams can engage in all four pillars of feature management without relying on a dedicated feature management tool. In many cases, engineers will construct a patchwork solution for feature flag management in-house. Some organizations, however, do build and use world-class homegrown systems. But in our experience, the latter is the exception. 

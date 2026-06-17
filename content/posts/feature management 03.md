@@ -6,11 +6,11 @@ tags:
   - kill-switch
   - observability
 category: Tech
-date: 2024-10-20
-published: 2024-10-20
+date: 2024-10-20T00:00:00.000Z
+published: 2024-10-20T00:00:00.000Z
 title: Operate - The second pillar
+excerpt: 'What is Operate? Operate, the second of the Four Pillars of Feature Management, encompasses feature flag use cases that...'
 ---
-
 ## What is Operate?
 
 Operate, the second of the Four Pillars of Feature Management, encompasses feature flag use cases that improve the operational health of your application. It entails making feature flags a mission-critical piece of your operations. As deployment speeds and infrastructural complexity go up, so does the need for operational safeguards. Feature management is that safeguard.
@@ -128,7 +128,7 @@ As with the database example, TrueCar used feature flags and targeting rules to 
 
 Feature flags simplified these complex routing rules. Moreover, LaunchDarkly’s simple and clean user interface made it easy to manage the vast sprawl of web traffic flows. In the end, TrueCar completed its cloud migration with zero downtime due to infrastructure problems.
 
-![](https://images.prismic.io/launchdarkly/a5e885d2-0641-4457-bfe1-8b9f9d879faf_truecar.svg?auto=compress,format)
+![TrueCar LaunchDarkly customer quote logo](https://images.prismic.io/launchdarkly/a5e885d2-0641-4457-bfe1-8b9f9d879faf_truecar.svg?auto=compress,format)
 
 "Business users and application software engineers used LaunchDarkly’s A/B testing framework to manage traffic flows across the whole infrastructure. For that and many other reasons, TrueCar’s AWS migration was the smoothest, most uneventful of any I’ve ever managed."
 

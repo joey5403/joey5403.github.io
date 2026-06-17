@@ -6,11 +6,11 @@ tags:
   - code-quality
   - refactoring
 category: Tech
-date: 2024-10-20
-published: 2024-10-20
+date: 2024-10-20T00:00:00.000Z
+published: 2024-10-20T00:00:00.000Z
 title: Improving flag usage in code
+excerpt: 'Read time: 10 minutes Last edited: Sep 18, 2024 [](https://docs.launchdarkly....'
 ---
-
 # Improving flag usage in code
 
 ##### Read time: 10 minutes
@@ -57,7 +57,7 @@ To learn more, read [Code references](https://docs.launchdarkly.com/home/observ
 
 Here is an image of the code references section for a feature flag:
 
-![](https://img.joeyzheng.tech/ob-1729145718689.png)
+![Feature flag code references screenshot](https://img.joeyzheng.tech/ob-1729145718689.png)
 
 
 The code references section of a feature flag.
