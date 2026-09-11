@@ -2,6 +2,7 @@
 title: PDCA, away impovement
 date: 2023-09-07 17:30:00
 status: draft
+draft: true
 tags:
   - pdca
   - quality-management

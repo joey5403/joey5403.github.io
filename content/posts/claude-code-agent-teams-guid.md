@@ -33,7 +33,7 @@ excerpt: 基于 Anthropic 官方文档整理 ⚠️ Agent Teams 目前是实验�
 
 ---
 
-## 一、什么是 Agent Teams
+## 一、什么是 Agent Teams {#一什么是-agent-teams}
 
 Agent Teams 让你协调**多个 Claude Code 实例**共同完成一项复杂任务。
 
@@ -69,7 +69,7 @@ export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
 
 ---
 
-## 二、内置工具清单
+## 二、内置工具清单 {#二内置工具清单}
 
 Claude Code 共有以下内置工具：
 
@@ -123,7 +123,7 @@ Claude Code 共有以下内置工具：
 
 ---
 
-## 三、核心架构：谁负责什么
+## 三、核心架构：谁负责什么 {#三核心架构谁负责什么}
 
 ### Lead Agent 职责
 
@@ -154,7 +154,7 @@ Spawn = 创建并启动一个新的独立进程。每个被 spawn 出来的 Team
 
 ---
 
-## 四、共享任务看板
+## 四、共享任务看板 {#四共享任务看板}
 
 ### 任务状态流转
 
@@ -193,7 +193,7 @@ TaskUpdate({ taskId: "3", addBlockedBy: ["1", "2"] })
 
 ---
 
-## 五、Agent 间通信机制
+## 五、Agent 间通信机制 {#五agent-间通信机制}
 
 ### 核心原则
 
@@ -227,7 +227,7 @@ SendMessage({ operation: "rejectShutdown", request_id: "xxx", reason: "还有任
 
 ---
 
-## 六、共享文件 vs 私有 Context
+## 六、共享文件 vs 私有 Context {#六共享文件-vs-私有-context}
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -252,7 +252,7 @@ SendMessage({ operation: "rejectShutdown", request_id: "xxx", reason: "还有任
 
 ---
 
-## 七、TeammateTool 的 13 种操作
+## 七、TeammateTool 的 13 种操作 {#七teammatetool-的-13-种操作}
 
 最新版本将操作拆分到多个工具：
 
@@ -288,7 +288,7 @@ SendMessage({ operation: "rejectShutdown", request_id: "xxx", reason: "还有任
 
 ---
 
-## 八、Hook 系统
+## 八、Hook 系统 {#八hook-系统}
 
 Hook 是写在本地的脚本，在 Agent 执行特定动作时**自动触发**。
 
@@ -353,7 +353,7 @@ exit 2 → 发送反馈让 Agent 继续（TeammateIdle/TaskCompleted）
 
 ---
 
-## 九、文件存储位置
+## 九、文件存储位置 {#九文件存储位置}
 
 ### 全局目录 `~/.claude/`
 
@@ -398,7 +398,7 @@ exit 2 → 发送反馈让 Agent 继续（TeammateIdle/TaskCompleted）
 
 ---
 
-## 十、Token 成本与建议
+## 十、Token 成本与建议 {#十token-成本与建议}
 
 - 每个 Teammate 有独立 Context Window，Token 消耗随 Teammate 数量**线性增长**
 - 3 个 Teammate ≈ 单 Session 的 3-4 倍 Token 消耗
@@ -413,7 +413,7 @@ exit 2 → 发送反馈让 Agent 继续（TeammateIdle/TaskCompleted）
 
 ---
 
-## 十一、已知限制与处理方式
+## 十一、已知限制与处理方式 {#十一已知限制与处理方式}
 
 | 问题 | 处理方式 |
 |------|---------|
@@ -424,7 +424,7 @@ exit 2 → 发送反馈让 Agent 继续（TeammateIdle/TaskCompleted）
 
 ---
 
-## 十二、何时选择 Agent Teams vs Subagents
+## 十二、何时选择 Agent Teams vs Subagents {#十二何时选择-agent-teams-vs-subagents}
 
 ### 推荐使用 Agent Teams
 

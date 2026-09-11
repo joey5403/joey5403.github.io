@@ -8,6 +8,7 @@ tags:
   - software-engineering
 date: 1987-10-12
 status: hidden
+draft: true
 ---
 
 # Now

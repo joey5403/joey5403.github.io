@@ -10,6 +10,7 @@ date: 2024-08-08 10:21:00
 image: https://img.joeyzheng.tech/IMG_20240808_092349.jpg
 published: 2024-08-08 10:21:00
 status: hidden
+draft: true
 title: Google I/O connection 2024
 ---
 # 进场
