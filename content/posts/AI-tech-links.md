@@ -1,12 +1,36 @@
 ---
 title: AI 技术链接收集
 date: 2026-03-05
-last_updated: 2026-08-12
+last_updated: 2026-09-11
 published: 2026-03-23
-total_links: 89
+total_links: 90
 id: AI tech links
 aliases: []
 tags: []
+---
+
+## 2026-09-11
+
+### [Kotlin“J神”两小时争议访谈：我宁愿失去80%的工作机会，也坚决不用 AI 编程](https://mp.weixin.qq.com/s/6zlTYGGKJ79QIsNYrQa9Hg)
+
+**来源：** InfoQ
+**时间：** 2026-09-11
+
+**核心内容：**
+> Kotlin 与 Android 开源大神 Jake Wharton 解释其拒绝加入 AI 公司和反对强制 AI 编程的原因，并讨论 Kotlin、Java、Swift、Rust、开源生态及工程师职业选择。
+
+**技术要点：**
+- Wharton 认为 AI 可辅助重复劳动，但若生成超出开发者理解和维护能力的代码，会削弱工程责任、技能与议价权。
+- 他质疑管理层自上而下强制采用 AI，指出这不同于 Kotlin、IDE 等工具由工程师基于实际价值自下而上推广的传统。
+- Kotlin 的核心优势不只是减少样板代码，还包括 Java 互操作、可空类型、成熟 IDE、工具链与开源生态；Java 的快速演进则持续缩小语言差距。
+- 他更欣赏 Swift 的错误处理和内存表示，以及 Rust 将所有权、资源责任和失败模式纳入类型系统的设计。
+- AI 生成代码不会取代共享开源库的长期价值：公共依赖能集中修复缺陷、持续优化性能，并让改进惠及所有使用者。
+
+**应用场景：**
+> 适合关注 AI 编程治理、工程师职业发展、Kotlin 生态与开源维护策略的开发者和技术管理者阅读。
+
+**原文链接：** [📌 保存链接](https://mp.weixin.qq.com/s/6zlTYGGKJ79QIsNYrQa9Hg)
+
 ---
 
 ## 2026-08-12
