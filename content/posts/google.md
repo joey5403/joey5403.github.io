@@ -20,12 +20,12 @@ title: Google I/O connection 2024
 extra:
   image: "https://img.joeyzheng.tech/IMG_20240808_092349.jpg"
 ---
-# 进场
+## 进场
 ![](https://img.joeyzheng.tech/IMG_20240808_085247.jpg)  
 ![](https://img.joeyzheng.tech/IMG_20240808_092020.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_092349.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_093605.jpg)
-# Google Cloud 最新动态
+## Google Cloud 最新动态
 ![](https://img.joeyzheng.tech/IMG_20240808_100129.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_100156.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_100243.jpg)
@@ -84,7 +84,7 @@ extra:
 ![](https://img.joeyzheng.tech/IMG_20240808_103952.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_104014.jpg)
 
-# 在GoogleCloud上用Gemini构建web应用
+## 在GoogleCloud上用Gemini构建web应用
 ![](https://img.joeyzheng.tech/IMG_20240808_104607.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_104632.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_104739.jpg)
@@ -115,7 +115,7 @@ extra:
 ![](https://img.joeyzheng.tech/IMG_20240808_113229.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_113402.jpg)
 
-# 使用数据库构建生成式AI应用
+## 使用数据库构建生成式AI应用
 ![](https://img.joeyzheng.tech/IMG_20240808_114249.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_114321.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_114411.jpg)
@@ -131,10 +131,10 @@ extra:
 ![](https://img.joeyzheng.tech/IMG_20240808_120837.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_120840.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_121255.jpg)
-# 午餐
+## 午餐
 ![](https://img.joeyzheng.tech/IMG_20240808_122522.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_122537.jpg)
-# 使用Ray
+## 使用Ray
 ![](https://img.joeyzheng.tech/IMG_20240808_132530.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_132713.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_132929.jpg)
@@ -159,7 +159,7 @@ extra:
 ![](https://img.joeyzheng.tech/IMG_20240808_140124.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_140309.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_140343.jpg)
-# 超越RAG
+## 超越RAG
 ![](https://img.joeyzheng.tech/IMG_20240808_141549.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_141634.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_141731.jpg)
@@ -194,7 +194,7 @@ extra:
 ![](https://img.joeyzheng.tech/IMG_20240808_144435.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_144649.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_144759.jpg)
-# Firebase
+## Firebase
 ![](https://img.joeyzheng.tech/IMG_20240808_150603.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_150617.jpg)
 ![](https://img.joeyzheng.tech/IMG_20240808_150639.jpg)

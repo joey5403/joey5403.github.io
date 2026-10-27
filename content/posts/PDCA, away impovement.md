@@ -13,9 +13,9 @@ taxonomies:
     - quality-management
     - continuous-improvement
 ---
-# PDCA aways impovement
+## PDCA aways impovement
 #work/methodology
-## What is PDCA?
+### What is PDCA?
 PDCA stands for Plan, Do, Check, Act. It is a cycle of quality management processes that aims to continuously improve and optimize processes by implementing and monitoring the results of corrective and preventive measures. PDCA is often used in conjunction with other quality management techniques, such as Six Sigma or Total Quality Management (TQM).
 
 In PDCA, the following steps are typically followed:

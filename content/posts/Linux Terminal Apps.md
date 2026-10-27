@@ -20,14 +20,14 @@ extra:
   image: "https://img.joeyzheng.tech/ob-1730971484759.png"
 description: "zellij 把这个放在最前面的目的，是因为这是后面所有软件的外壳。 终端的分屏工具，原来我是用tmux的，目前已完全换到了zellij，同类软件还有screen等。 https://github...."
 ---
-# zellij
+## zellij
 把这个放在最前面的目的，是因为这是后面所有软件的外壳。  
 终端的分屏工具，原来我是用tmux的，目前已完全换到了zellij，同类软件还有screen等。  
 ![Zellij terminal workspace screenshot](https://img.joeyzheng.tech/ob-1730971484759.png)
 https://github.com/zellij-org/zellij
 
 
-# aerc
+## aerc
 一个简单易用的终端下的邮件客户端  
 我分别测试了notmuch，himalaya，mutt，aerc  
 目前感觉aerc是最简单易用的。  
@@ -35,7 +35,7 @@ https://github.com/zellij-org/zellij
 https://sr.ht/~rjarry/aerc/
 
 
-# aichat
+## aichat
 终端ai工具，可以用来翻译markdown文件，非常方便。
 
 ![Aichat terminal AI client screenshot](https://img.joeyzheng.tech/ob-1730971559158.png)
@@ -43,7 +43,7 @@ https://sr.ht/~rjarry/aerc/
 https://github.com/sigoden/aichat
 
 
-# khal + vdirsyncer + todoman
+## khal + vdirsyncer + todoman
 khal 是一个终端的日历管理工具  
 vdirsyncer 是一个caldav同步工具  
 todoman 是个基于caldav的todolist  
@@ -55,12 +55,12 @@ https://github.com/pimutils/khal
 https://github.com/pimutils/vdirsyncer
 
 
-# weechat
+## weechat
 一直在挂机的irc客户端
 
 
-# vim
+## vim
 这个就不评价了
 
-# 
+## 
 

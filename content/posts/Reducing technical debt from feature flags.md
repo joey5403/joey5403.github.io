@@ -18,11 +18,11 @@ excerpt: 'Read time: 16 minutes Last edited: Oct 15, 2024 [](https://docs.launch
 description: "Read time: 16 minutes Last edited: Oct 15, 2024 [](https://docs.launchdarkly...."
 ---
 
-##### Read time: 16 minutes
+###### Read time: 16 minutes
 
-##### Last edited: Oct 15, 2024
+###### Last edited: Oct 15, 2024
 
-## [](https://docs.launchdarkly.com/guides/flags/technical-debt#overview)Overview
+### [](https://docs.launchdarkly.com/guides/flags/technical-debt#overview)Overview
 
 This guide provides ways to reduce and eliminate technical debt related to feature flags using LaunchDarkly. Like all debt, technical debt accumulates over time, but you can mitigate that debt over time if you put effective processes in place before you need them.
 
@@ -37,18 +37,18 @@ In this guide, we'll explore:
 
 Just like feature flags should be a core engineering practice, so should a strategy to address technical debt. LaunchDarkly can help you by automatically identifying flags that need code removal or are ready to archive.
 
-## [](https://docs.launchdarkly.com/guides/flags/technical-debt#prerequisites)Prerequisites
+### [](https://docs.launchdarkly.com/guides/flags/technical-debt#prerequisites)Prerequisites
 
 To complete this guide, you must have the following prerequisites:
 
 - Proficiency and understanding of creating a feature flag in LaunchDarkly
 - Knowledge of your organization’s release process
 
-## [](https://docs.launchdarkly.com/guides/flags/technical-debt#concepts)Concepts
+### [](https://docs.launchdarkly.com/guides/flags/technical-debt#concepts)Concepts
 
 You should understand these concepts before you read this guide:
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#technical-debt)Technical debt
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#technical-debt)Technical debt
 
 Technical debt is a concept in software development that describes the implied cost of rework required in the future because of short-term, limited solutions. It is often caused by choosing a fast, limited solution now instead of using a better approach that would take longer. A common reason for this is that necessary work must be delayed to meet a deliverable or a deadline.
 
@@ -56,7 +56,7 @@ As this debt accumulates, it is harder to maintain the system and code, which ca
 
 One way technical debt can accumulate is when you fail to maintain your feature flags.
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#software-delivery-lifecycle)Software delivery lifecycle
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#software-delivery-lifecycle)Software delivery lifecycle
 
 The software delivery lifecycle (SDLC) is a process followed for a software project. The process describes how to develop, maintain, and modify software. The stages of the software delivery cycle are:
 
@@ -67,13 +67,13 @@ The software delivery lifecycle (SDLC) is a process followed for a software proj
 - Testing and integration
 - Maintenance
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#temporary-and-permanent-flags)Temporary and permanent flags
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#temporary-and-permanent-flags)Temporary and permanent flags
 
 Flags are either temporary or permanent. A temporary flag has a limited lifespan. Once the flag has fulfilled its business purpose, remove it from the codebase. Temporary flags include flags for release management, experiments, and interoperability testing.
 
 Permanent flags provide control for an extended time after the release of a feature. They will potentially exist for the life of a feature. Permanent flags include flags for entitlements, load shedding, custom-branding, or accessibility.
 
-## [](https://docs.launchdarkly.com/guides/flags/technical-debt#challenges-of-technical-debt)Challenges of technical debt
+### [](https://docs.launchdarkly.com/guides/flags/technical-debt#challenges-of-technical-debt)Challenges of technical debt
 
 Every feature should have a flag, but if you don't regularly archive flags, you can accumulate a lot of debt.
 
@@ -87,7 +87,7 @@ You also run the risk of an old flag evaluating to a state that is invalid or un
 
 Test the fallback values of permanent flags periodically to ensure they are up to date and delivering valid states. To learn more about fallback values, read [Change default flag values](https://docs.launchdarkly.com/home/flags/variations#change-default-flag-values).
 
-## [](https://docs.launchdarkly.com/guides/flags/technical-debt#the-flag-lifecycle)The flag lifecycle
+### [](https://docs.launchdarkly.com/guides/flags/technical-debt#the-flag-lifecycle)The flag lifecycle
 
 A flag may go through several stages over the course of its lifecycle, including:
 
@@ -118,11 +118,11 @@ If you don't remove and archive flags that no one is using, they can become a fo
 
 You may sometimes see flags on the **Flags** list that you have removed from your code, but appear to still be active. To troubleshoot this, read the LaunchDarkly Knowledge Base articles [How to investigate removed flags that appear active](https://support.launchdarkly.com/hc/en-us/articles/26504511566363-How-to-investigate-removed-flags-that-appear-active) and [Flag removed from code is still showing evaluations](https://support.launchdarkly.com/hc/en-us/articles/14030042957083-Flag-removed-from-code-is-still-showing-evaluations).
 
-## [](https://docs.launchdarkly.com/guides/flags/technical-debt#organizational-methods-for-reducing-flag-debt)Organizational methods for reducing flag debt
+### [](https://docs.launchdarkly.com/guides/flags/technical-debt#organizational-methods-for-reducing-flag-debt)Organizational methods for reducing flag debt
 
 This section discusses processes you can follow within your organization to reduce or eliminate flag debt.
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#create-organization-wide-naming-conventions)Create organization-wide naming conventions
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#create-organization-wide-naming-conventions)Create organization-wide naming conventions
 
 A shared naming convention for your organization's flags is an effective way to eliminate debt. Flags should have understandable, intuitive names.
 
@@ -132,13 +132,13 @@ If flags do not have human-readable names, they can become technical debt.
 
 To learn more, read [Flag conventions](https://docs.launchdarkly.com/guides/flags/flag-conventions).
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#write-useful-descriptions)Write useful descriptions
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#write-useful-descriptions)Write useful descriptions
 
 Use descriptions to add more context to the flag. Unlike flag names, you can update descriptions. They can include detailed information, such as the date the flag was last reviewed, the purpose of the flag, and more.
 
 Descriptions are fast ways to help other account members learn what a flag does and what its impact is.
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#minimize-flag-scope)Minimize flag scope
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#minimize-flag-scope)Minimize flag scope
 
 A flag should have limited scope. Having a flag that controls more than one feature action at a time can be confusing and can make it harder to troubleshoot problems.
 
@@ -146,7 +146,7 @@ Imagine the smallest unit of logic needed for the most responsive flag. If there
 
 For example, you launch a new dashboard with three widgets. To manage them, create four flags: one flag for each widget, with a dependency on a fourth flag for the main dashboard. In this scenario, if one widget causes problems, you can disable it and still serve the dashboard with the two remaining widgets.
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#only-using-flags-where-necessary)Only using flags where necessary
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#only-using-flags-where-necessary)Only using flags where necessary
 
 You do not need to use feature flags for every change you make to your codebase. Limit the use of flags in certain situations to help manage your flag debt.
 
@@ -159,7 +159,7 @@ We recommend against using flags in the following scenarios:
 - As a database or file store. Instead, keep variations small and avoid complex JSON payloads where possible. Consider breaking up complex flags into smaller individual flags.
 - For every commit, sprint, or other small change. Flagging very small changes is usually not worth the cost of flag upkeep. Instead, wrap features as a whole.
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#mark-flags-as-temporary)Mark flags as temporary
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#mark-flags-as-temporary)Mark flags as temporary
 
 When you create or edit a flag, you can indicate whether or not the flag is temporary by selecting the **This is a temporary flag** checkbox on the flag's settings page.
 
@@ -169,7 +169,7 @@ When you conduct a flag review, confirm the **This is a temporary flag** check
 
 To learn more, read [Other flag settings](https://docs.launchdarkly.com/home/flags/flag-settings).
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#use-effective-tagging-conventions)Use effective tagging conventions
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#use-effective-tagging-conventions)Use effective tagging conventions
 
 Tags are strings you can attach to any flag within LaunchDarkly. They help you group resources together.
 
@@ -179,7 +179,7 @@ Tag case sensitivity
 
 Tags are case sensitive. For example, searching for `Permanent` tags and `permanent` tags will yield different results.
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#include-flags-in-your-workflows-definition-of-done)Include flags in your workflow's definition of "done"
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#include-flags-in-your-workflows-definition-of-done)Include flags in your workflow's definition of "done"
 
 Each company and team within an organization may have their own standards for what constitutes "done" on a task or project. Done indicates the project can be removed from the list of current tasks. For example, a team may consider the code for a task to be incomplete until it has passed automated tests.
 
@@ -189,29 +189,29 @@ If the flag you use for a release will convert to a permanent flag, the definiti
 
 To learn more about integrating flag archiving behavior into your feature development processes, read the LaunchDarkly blog article [How to use feature flags without technical debt](https://launchdarkly.com/blog/how-to-use-feature-flags-without-technical-debt/).
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#plan-to-remove-flags-during-flag-creation)Plan to remove flags during flag creation
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#plan-to-remove-flags-during-flag-creation)Plan to remove flags during flag creation
 
 When creating a pull request to add a flag into your code, you can also create a second pull request which removes the flag. This pull request should simply remove the flag code without other changes. This minimizes the number of conflicts to resolve even if, as often happens, the code for the new feature is updated before the rollout is finished.
 
 The code may change before you merge the branch, but creating it gives you somewhere to start when you're ready to clean up the code. The presence of the branch also serves as a reminder to remove the flag when it's no longer needed.
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#retire-inactive-projects)Retire inactive projects
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#retire-inactive-projects)Retire inactive projects
 
 You can identify entire projects that may be inactive by the age and activity level of its flags. If no one has created new flags within the project in the last three months, and it does not contain any active permanent flags, you may be able to delete the project. To learn how, read [Delete projects](https://docs.launchdarkly.com/home/account/project#delete-projects).
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#receive-flag-removal-alerts-in-slack)Receive flag removal alerts in Slack
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#receive-flag-removal-alerts-in-slack)Receive flag removal alerts in Slack
 
 The LaunchDarkly Slack app can send you notifications when it’s time to remove flags from code. To learn more, read [Receive alerts when flags are ready to remove](https://docs.launchdarkly.com/integrations/slack/notifications#receive-alerts-when-flags-are-ready-to-remove).
 
-## [](https://docs.launchdarkly.com/guides/flags/technical-debt#methods-for-reducing-flag-debt-in-launchdarkly)Methods for reducing flag debt in LaunchDarkly
+### [](https://docs.launchdarkly.com/guides/flags/technical-debt#methods-for-reducing-flag-debt-in-launchdarkly)Methods for reducing flag debt in LaunchDarkly
 
 LaunchDarkly provides several tools to help you reduce flag debt.
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#use-the-flag-archive-checks)Use the flag archive checks
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#use-the-flag-archive-checks)Use the flag archive checks
 
 On the **Flags** list, use the **Display** menu to show archive checks for your flags. When archive checks are selected, the **Flags** list indicates whether a flag is needs code removal or is ready to archive. You can also use the **Filter** menu to filter for flags that need code removal or are ready to archive. To learn more, read [Archiving flags](https://docs.launchdarkly.com/home/flags/archive) and [Flag statuses and lifecycle stages](https://docs.launchdarkly.com/home/observability/flag-status).
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#use-the-flag-health-metric)Use the flag health metric
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#use-the-flag-health-metric)Use the flag health metric
 
 Engineering insights is an Enterprise feature
 
@@ -233,7 +233,7 @@ Focusing too much on decreasing your stale flag percentage can lead to bad pract
 
 Instead, discuss your overall goals for flag health as a team. You can talk through the flag lifecycle and decide on organizational standards for topics including naming conventions, tags, making flags permanent, and deprecating, archiving, and deleting flags.
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#deprecate-archive-and-delete-flags)Deprecate, archive, and delete flags
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#deprecate-archive-and-delete-flags)Deprecate, archive, and delete flags
 
 LaunchDarkly provides the options to deprecate, archive, and delete flags. We strongly recommend deprecating or archiving flags rather than deleting them, because an archived flag's history remains in your LaunchDarkly project. To learn how, read [Deprecating, archiving, and deleting flags](https://docs.launchdarkly.com/home/flags/archive-delete).
 
@@ -253,7 +253,7 @@ Custom roles is an Enterprise feature
 
 Custom roles are available to customers on an Enterprise plan. To learn more, [read about our pricing](https://launchdarkly.com/pricing/). To upgrade your plan, [contact Sales](https://launchdarkly.com/contact-sales/).
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#schedule-regular-flag-reviews)Schedule regular flag reviews
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#schedule-regular-flag-reviews)Schedule regular flag reviews
 
 Schedule regular review cycles on a monthly or quarterly basis to identify flags to archive. Some companies dedicate sprints to tackling technical debt. If you do this, include a review of your feature flags, too.
 
@@ -279,7 +279,7 @@ Compare environments.
 
 If you choose additional environments, LaunchDarkly performs the checks again and highlights stale flags. To learn more, read [Flag health](https://docs.launchdarkly.com/home/observability/flag-health).
 
-### [](https://docs.launchdarkly.com/guides/flags/technical-debt#use-code-references-to-find-and-remove-references-to-flags)Use code references to find and remove references to flags
+#### [](https://docs.launchdarkly.com/guides/flags/technical-debt#use-code-references-to-find-and-remove-references-to-flags)Use code references to find and remove references to flags
 
 Archiving a flag removes it from the **Flags** list and your app's contexts no longer encounter it.
 
@@ -299,7 +299,7 @@ The flag health metric also automatically verifies whether or not there are code
 
 After you remove all code references mentioning that flag from the codebase and rerun the scanning tool, LaunchDarkly creates an extinction event. This event appears as a message on the **Code references** tab of the feature flag. To learn more, read [About extinction events](https://docs.launchdarkly.com/home/observability/code-references#about-extinction-events).
 
-## [](https://docs.launchdarkly.com/guides/flags/technical-debt#conclusion)Conclusion
+### [](https://docs.launchdarkly.com/guides/flags/technical-debt#conclusion)Conclusion
 
 In this guide, you learned about:
 
@@ -311,13 +311,13 @@ For additional discussion on the lifecycle of a feature flag, read the ebook [E
 
 
 
-# 减少特性标志的技术债务
+## 减少特性标志的技术债务
 
-#### 阅读时间：16分钟
+##### 阅读时间：16分钟
 
-#### 最后编辑：2024年10月15日
+##### 最后编辑：2024年10月15日
 
-## [](https://undefined/)概览
+### [](https://undefined/)概览
 
 本指南提供了使用LaunchDarkly减少和消除与特性标志相关的技术债务的方法。像所有债务一样，技术债务会随着时间积累，但如果您在需要之前就建立有效的流程，就可以随着时间减轻这些债务。
 
@@ -332,18 +332,18 @@ For additional discussion on the lifecycle of a feature flag, read the ebook [E
 
 就像特性标志应该是核心工程实践一样，解决技术债务的策略也应该是。LaunchDarkly可以通过自动识别需要代码移除或准备归档的标志来帮助您。
 
-## [](https://undefined/)先决条件
+### [](https://undefined/)先决条件
 
 要完成本指南，您必须具备以下先决条件：
 
 - 熟练掌握在LaunchDarkly中创建特性标志
 - 了解您组织的发布流程
 
-## [](https://undefined/)概念
+### [](https://undefined/)概念
 
 在阅读本指南之前，您应该了解以下概念：
 
-### [](https://undefined/)技术债务
+#### [](https://undefined/)技术债务
 
 技术债务是软件开发中的一个概念，描述了由于未来需要重做的工作而产生的隐含成本，因为短期内采用了有限的解决方案。这通常是因为为了满足交付物或截止日期，必须延迟必要的工作而造成的。
 
@@ -351,7 +351,7 @@ For additional discussion on the lifecycle of a feature flag, read the ebook [E
 
 技术债务积累的一种方式是未能维护您的特性标志。
 
-### [](https://undefined/)软件交付生命周期
+#### [](https://undefined/)软件交付生命周期
 
 软件交付生命周期（SDLC）是软件项目遵循的一个过程。该过程描述了如何开发、维护和修改软件。软件交付周期的阶段包括：
 
@@ -362,13 +362,13 @@ For additional discussion on the lifecycle of a feature flag, read the ebook [E
 - 测试和集成
 - 维护
 
-### [](https://undefined/)临时和永久标志
+#### [](https://undefined/)临时和永久标志
 
 标志要么是临时的，要么是永久的。临时标志有有限的生命周期。一旦标志实现了其业务目的，就将其从代码库中移除。临时标志包括用于发布管理、实验和互操作性测试的标志。
 
 永久标志在功能发布后提供长时间的控制。它们可能会存在整个功能的生命期。永久标志包括用于权利、负载削减、自定义品牌或可访问性的标志。
 
-## [](https://undefined/)技术债务的挑战
+### [](https://undefined/)技术债务的挑战
 
 每个功能都应该有一个标志，但如果不定期归档标志，您可能会积累大量债务。
 
@@ -382,7 +382,7 @@ For additional discussion on the lifecycle of a feature flag, read the ebook [E
 
 定期测试永久标志的回退值，以确保它们是最新的并提供有效的状态。要了解更多关于回退值的信息，请阅读[更改默认标志值](https://docs.launchdarkly.com/home/flags/variations#change-default-flag-values)。
 
-## [](https://undefined/)标志生命周期
+### [](https://undefined/)标志生命周期
 
 标志在其生命周期中可能会经历几个阶段，包括：
 
@@ -414,13 +414,13 @@ LaunchDarkly通过检查您的所有[关键环境](https://docs.launchdarkly.com
 有时您可能会在**标志**列表上看到您已经从代码中移除的标志，但它们似乎仍然活跃。要进行故障排除，请阅读LaunchDarkly知识库文章[如何调查看起来活跃的已移除标志](https://support.launchdarkly.com/hc/en-us/articles/26504511566363-How-to-investigate-removed-flags-that-appear-active)和[代码中已移除的标志仍然显示评估](https://support.launchdarkly.com/hc/en-us/articles/14030042957083-Flag-removed-from-code-is-still-showing-evaluations)。
 
 
-###   编写有用的描述
+####   编写有用的描述
 
 使用描述为标志添加更多上下文。与标志名称不同，您可以更新描述。它们可以包括详细的信息，例如标志上次审查的日期、标志的目的等。
 
 描述是帮助其他账户成员快速了解标志功能及其影响的便捷方式。
 
-### 最小化标志范围
+#### 最小化标志范围
 
 一个标志应该具有有限的范围。一个标志如果同时控制多个功能动作，可能会造成混淆，并且可能使得问题排查变得更加困难。
 
@@ -428,7 +428,7 @@ LaunchDarkly通过检查您的所有[关键环境](https://docs.launchdarkly.com
 
 例如，您启动了一个带有三个小部件的新仪表板。为了管理它们，创建四个标志：每个小部件一个标志，以及一个依赖于主仪表板的第四个标志。在这种情况下，如果一个小部件出现问题，您可以禁用它，仍然可以用剩下的两个小部件提供仪表板服务。
 
-### 仅在必要时使用标志
+#### 仅在必要时使用标志
 
 您不需要对代码库中的每个更改都使用特性标志。在某些情况下限制标志的使用，可以帮助管理您的标志债务。
 
@@ -441,7 +441,7 @@ LaunchDarkly通过检查您的所有[关键环境](https://docs.launchdarkly.com
 - 作为数据库或文件存储。相反，保持变体小，并在可能的情况下避免复杂的JSON负载。考虑将复杂的标志分解为更小的单个标志。
 - 对于每次提交、冲刺或其他小更改。标记非常小的更改通常不值得维护标志的成本。相反，将功能作为一个整体进行包装。
 
-### 将标志标记为临时
+#### 将标志标记为临时
 
 当您创建或编辑标志时，可以通过在标志的设置页面上选择**这是一个临时标志**复选框来指示标志是否为临时标志。
 
@@ -451,7 +451,7 @@ LaunchDarkly通过检查您的所有[关键环境](https://docs.launchdarkly.com
 
 要了解更多信息，请阅读[其他标志设置](https://docs.launchdarkly.com/home/flags/flag-settings)。
 
-### 使用有效的标记约定
+#### 使用有效的标记约定
 
 标签是您可以附加到LaunchDarkly中任何标志的字符串。它们帮助您将资源分组。
 
@@ -461,7 +461,7 @@ LaunchDarkly通过检查您的所有[关键环境](https://docs.launchdarkly.com
 
 标签是大小写敏感的。例如，搜索`Permanent`标签和`permanent`标签将产生不同的结果。
 
-### 在工作流程的定义中包含标志
+#### 在工作流程的定义中包含标志
 
 每个公司和组织内的团队可能都有自己的标准，以确定任务或项目何时算作“完成”。完成表示项目可以从当前任务列表中移除。例如，一个团队可能认为，除非任务的代码通过了自动化测试，否则任务的代码不完整。
 
@@ -471,29 +471,29 @@ LaunchDarkly通过检查您的所有[关键环境](https://docs.launchdarkly.com
 
 要了解更多关于如何将标志归档行为集成到您的功能开发流程中，阅读LaunchDarkly博客文章[如何在不产生技术债务的情况下使用特性标志](https://launchdarkly.com/blog/how-to-use-feature-flags-without-technical-debt/)。
 
-### 在标志创建期间计划移除标志
+#### 在标志创建期间计划移除标志
 
 当您创建一个拉取请求将标志添加到您的代码时，您也可以创建一个第二个拉取请求来移除该标志。这个拉取请求应该只移除标志代码，而没有其他更改。这最小化了即使通常发生的情况，即新功能代码在发布完成前更新，需要解决的冲突数量。
 
 在您合并分支之前，代码可能会更改，但创建它为您提供了开始清理代码的起点。分支的存在也提醒您在不再需要标志时将其移除。
 
-### 退役不活跃的项目
+#### 退役不活跃的项目
 
 您可以通过标志的年龄和活动水平来识别可能不活跃的整个项目。如果在过去三个月内没有人在项目中创建新的标志，并且它不包含任何活跃的永久标志，您可能可以删除该项目。要了解如何操作，阅读[删除项目](https://docs.launchdarkly.com/home/account/project#delete-projects)。
 
-### 在Slack中接收标志移除提醒
+#### 在Slack中接收标志移除提醒
 
 LaunchDarkly Slack应用程序可以在您需要从代码中移除标志时发送通知。要了解更多信息，请阅读[当标志准备好移除时接收提醒](https://docs.launchdarkly.com/integrations/slack/notifications#receive-alerts-when-flags-are-ready-to-remove)。
 
-## 在LaunchDarkly中减少标志债务的方法
+### 在LaunchDarkly中减少标志债务的方法
 
 LaunchDarkly提供了几种工具，可以帮助您减少标志债务。
 
-### 使用标志归档检查
+#### 使用标志归档检查
 
 在**标志**列表上，使用**显示**菜单显示标志的归档检查。当选择归档检查时，**标志**列表会指示标志是否需要代码移除或准备归档。您也可以使用**筛选器**菜单筛选需要代码移除或准备归档的标志。要了解更多信息，请阅读[归档标志](https://docs.launchdarkly.com/home/flags/archive)和[标志状态和生命周期阶段](https://docs.launchdarkly.com/home/observability/flag-status)。
 
-### 使用标志健康度量
+#### 使用标志健康度量
 
 工程洞察是企业版功能
 
@@ -515,7 +515,7 @@ LaunchDarkly提供了几种工具，可以帮助您减少标志债务。
 
 相反，作为团队讨论您的标志健康总体目标。您可以讨论标志的生命周期，并为命名约定、标签、使标志永久化以及弃用、归档和删除标志等主题确定组织标准。
 
-### 弃用、归档和删除标志
+#### 弃用、归档和删除标志
 
 LaunchDarkly提供了弃用、归档和删除标志的选项。我们强烈建议尽可能弃用或归档标志，而不是直接删除它们，因为归档标志的历史记录会保留在您的LaunchDarkly项目中。要了解如何操作，请阅读[弃用、归档和删除标志](https://docs.launchdarkly.com/home/flags/archive-delete)。
 
@@ -535,7 +535,7 @@ LaunchDarkly SDK将归档标志视为“已删除”。当您选择归档一个�
 
 自定义角色适用于企业版计划的客户。要了解更多信息，请[阅读我们的定价信息](https://launchdarkly.com/pricing/)。要升级您的计划，请[联系销售](https://launchdarkly.com/contact-sales/)。
 
-### 定期安排标志审查
+#### 定期安排标志审查
 
 定期安排每月或季度的标志审查周期以识别要归档的标志。一些公司会专门安排冲刺来处理技术债务。如果您这样做，请也包括对您的特性标志的审查。
 
@@ -561,7 +561,7 @@ LaunchDarkly SDK将归档标志视为“已删除”。当您选择归档一个�
 
 如果您选择了额外的环境，LaunchDarkly会再次执行检查并突出显示陈旧的标志。要了解更多信息，请阅读[标志健康](https://docs.launchdarkly.com/home/observability/flag-health)。
 
-### 使用代码引用查找和移除标志引用
+#### 使用代码引用查找和移除标志引用
 
 归档一个标志会将其从**标志**列表中移除，您的应用程序上下文不再遇到它。
 
@@ -581,7 +581,7 @@ LaunchDarkly SDK将归档标志视为“已删除”。当您选择归档一个�
 
 在您从代码库中移除所有提及该标志的代码引用并重新运行扫描工具后，LaunchDarkly会创建一个灭绝事件。此事件出现在功能标志的**代码引用**标签页上的消息中。要了解更多信息，请阅读[关于灭绝事件](https://docs.launchdarkly.com/home/observability/code-references#about-extinction-events)。
 
-## 结论
+### 结论
 
 在本指南中，您了解到：
 

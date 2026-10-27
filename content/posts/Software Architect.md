@@ -19,13 +19,13 @@ description: "![]() What is a software Architect? The definition in wikipedia is
 ---
 ![]()
 
-# What is a software Architect?
+## What is a software Architect?
 
 The definition in wikipedia is below:
 
 A software architect is a software development expert who makes high-level design choices and tries to enforce technical standards, including software coding standards, tools, and platforms.
 
-# Duty
+## Duty
 
 The role of software architect generally has certain common traits:
 
