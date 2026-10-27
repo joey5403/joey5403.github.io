@@ -5,11 +5,17 @@ tags:
   - feature-management
   - experimentation
   - A/B-testing
+taxonomies:
+  tags:
+    - feature-management
+    - experimentation
+    - A/B-testing
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 published: 2024-10-20T00:00:00.000Z
 title: Learn - The third pillar
 excerpt: What is Learn? The Learn pillar of feature management focuses on enabling all teams to better understand how software...
+description: "What is Learn? The Learn pillar of feature management focuses on enabling all teams to better understand how software..."
 ---
 ## What is Learn?
 

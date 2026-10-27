@@ -5,6 +5,11 @@ tags:
   - feature-management
   - feature-flags
   - continuous-delivery
+taxonomies:
+  tags:
+    - feature-management
+    - feature-flags
+    - continuous-delivery
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 lang: en
@@ -13,6 +18,7 @@ routeSlug: feature-management-01
 translationKey: feature-management-01
 title: The definitive guide to feature management.
 excerpt: What is feature management? Feature management is a new class of software development tools and techniques powered by feature flags....
+description: "What is feature management? Feature management is a new class of software development tools and techniques powered by feature flags...."
 ---
 #### What is feature management?
 

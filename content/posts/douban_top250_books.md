@@ -5,9 +5,15 @@ tags:
   - reading
   - books
   - douban
+taxonomies:
+  tags:
+    - reading
+    - books
+    - douban
 date: 2026-07-07
 title: 豆瓣读书 Top 250
 excerpt: 整理豆瓣读书 Top 250 榜单，记录 2026-07-07 抓取时的排名、评分、评价人数、出版信息和条目链接。
+description: "整理豆瓣读书 Top 250 榜单，记录 2026-07-07 抓取时的排名、评分、评价人数、出版信息和条目链接。"
 lang: zh
 status: published
 ---

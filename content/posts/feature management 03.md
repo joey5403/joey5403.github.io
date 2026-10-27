@@ -5,11 +5,17 @@ tags:
   - feature-management
   - kill-switch
   - observability
+taxonomies:
+  tags:
+    - feature-management
+    - kill-switch
+    - observability
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 published: 2024-10-20T00:00:00.000Z
 title: Operate - The second pillar
 excerpt: 'What is Operate? Operate, the second of the Four Pillars of Feature Management, encompasses feature flag use cases that...'
+description: "What is Operate? Operate, the second of the Four Pillars of Feature Management, encompasses feature flag use cases that..."
 ---
 ## What is Operate?
 

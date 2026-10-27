@@ -5,11 +5,17 @@ tags:
   - feature-management
   - continuous-delivery
   - testing-in-production
+taxonomies:
+  tags:
+    - feature-management
+    - continuous-delivery
+    - testing-in-production
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 published: 2024-10-20T00:00:00.000Z
 title: Build - The first pillar
 excerpt: 'What is Build? The Build pillar addresses the use of feature flags for building and delivering new features, bug fixes,...'
+description: "What is Build? The Build pillar addresses the use of feature flags for building and delivering new features, bug fixes,..."
 ---
 ## What is Build?
 

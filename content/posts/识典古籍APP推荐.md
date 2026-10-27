@@ -5,9 +5,15 @@ tags:
   - classics
   - reading
   - AI
+taxonomies:
+  tags:
+    - classics
+    - reading
+    - AI
 date: 2026-03-31T00:00:00.000Z
 title: 推荐一款古籍阅读神器：识典古籍 APP
 excerpt: 推荐识典古籍 APP，介绍它的免费古籍资源、AI OCR、自动标点、文白对照、影印原图和深度研究助手等核心能力。
+description: "推荐识典古籍 APP，介绍它的免费古籍资源、AI OCR、自动标点、文白对照、影印原图和深度研究助手等核心能力。"
 ---
 # 推荐一款古籍阅读神器：识典古籍 APP
 

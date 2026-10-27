@@ -5,11 +5,17 @@ tags:
   - feature-management
   - entitlements
   - customer-targeting
+taxonomies:
+  tags:
+    - feature-management
+    - entitlements
+    - customer-targeting
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 published: 2024-10-20T00:00:00.000Z
 title: Empower - The fourth pillar
 excerpt: 'What is Empower? Empower, the fourth and final pillar of feature management, reimagines the process of giving users...'
+description: "What is Empower? Empower, the fourth and final pillar of feature management, reimagines the process of giving users..."
 ---
 ## What is Empower?
 

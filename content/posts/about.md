@@ -6,6 +6,11 @@ tags:
   - about
   - personal
   - software-engineering
+taxonomies:
+  tags:
+    - about
+    - personal
+    - software-engineering
 date: 1987-10-12
 status: hidden
 draft: true

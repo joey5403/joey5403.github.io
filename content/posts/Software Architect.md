@@ -6,8 +6,16 @@ tags:
   - software-architecture
   - architect
   - software-engineering
+taxonomies:
+  tags:
+    - software-architecture
+    - architect
+    - software-engineering
 image: 'http://img.joey5403.tech/ob-1774004125657.jpeg'
 excerpt: '![]() What is a software Architect? The definition in wikipedia is below: A software architect is a software development expert who makes high-level design choices and tries to...'
+extra:
+  image: "http://img.joey5403.tech/ob-1774004125657.jpeg"
+description: "![]() What is a software Architect? The definition in wikipedia is below: A software architect is a software development expert who makes high-level design choices and tries to..."
 ---
 ![]()
 

@@ -5,11 +5,17 @@ tags:
   - feature-toggle
   - code-quality
   - refactoring
+taxonomies:
+  tags:
+    - feature-toggle
+    - code-quality
+    - refactoring
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 published: 2024-10-20T00:00:00.000Z
 title: Improving flag usage in code
 excerpt: 'Read time: 10 minutes Last edited: Sep 18, 2024 [](https://docs.launchdarkly....'
+description: "Read time: 10 minutes Last edited: Sep 18, 2024 [](https://docs.launchdarkly...."
 ---
 # Improving flag usage in code
 

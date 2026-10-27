@@ -3,6 +3,9 @@ id: feature-management-01-zh
 aliases: []
 tags:
   - feature toggle
+taxonomies:
+  tags:
+    - feature toggle
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 lang: zh
@@ -11,6 +14,7 @@ slug: feature-management-01-zh
 translationKey: feature-management-01
 title: The definitive guide to feature management.
 excerpt: 什么是特性管理？ 特性管理是由特性标志（feature flags）驱动的一类新的软件开发工具和技术。一个特性标志是代码中的一个控制杠杆（一个if-else语句），它将代码部署与特性发布解耦。开发者多年来一直在使用特性标志的一些变体。...
+description: "什么是特性管理？ 特性管理是由特性标志（feature flags）驱动的一类新的软件开发工具和技术。一个特性标志是代码中的一个控制杠杆（一个if-else语句），它将代码部署与特性发布解耦。开发者多年来一直在使用特性标志的一些变体。..."
 ---
 #### 什么是特性管理？
 

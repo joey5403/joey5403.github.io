@@ -5,11 +5,17 @@ tags:
   - software-design
   - design-patterns
   - domain-driven-design
+taxonomies:
+  tags:
+    - software-design
+    - design-patterns
+    - domain-driven-design
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 published: 2024-10-20T00:00:00.000Z
 title: Hexagonal architecture pattern
 excerpt: 'Intent The hexagonal architecture pattern, which is also known as the ports and adapters pattern, was proposed by Dr. Alistair Cockburn in 2005....'
+description: "Intent The hexagonal architecture pattern, which is also known as the ports and adapters pattern, was proposed by Dr. Alistair Cockburn in 2005...."
 ---
 ## Intent
 

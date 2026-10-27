@@ -7,6 +7,11 @@ tags:
   - pdca
   - quality-management
   - continuous-improvement
+taxonomies:
+  tags:
+    - pdca
+    - quality-management
+    - continuous-improvement
 ---
 # PDCA aways impovement
 #work/methodology

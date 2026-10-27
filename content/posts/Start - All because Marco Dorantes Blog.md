@@ -5,10 +5,16 @@ tags:
   - blog
   - personal
   - writing
+taxonomies:
+  tags:
+    - blog
+    - personal
+    - writing
 category: Tech
 date: 2023-08-28T00:00:00.000Z
 title: Start - All because Marco Dorantes Blog
 excerpt: 'It''s a very sudden thought. I start a personal blog, only write by myself, and only use English. It''s about all my life. From my born To the last if I can....'
+description: "It's a very sudden thought. I start a personal blog, only write by myself, and only use English. It's about all my life. From my born To the last if I can...."
 ---
 It's a very sudden thought.  
 I start a personal blog,  

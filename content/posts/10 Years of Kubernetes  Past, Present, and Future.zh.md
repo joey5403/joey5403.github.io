@@ -5,12 +5,20 @@ tags:
   - kubernetes
   - containers
   - architect
+taxonomies:
+  tags:
+    - kubernetes
+    - containers
+    - architect
 category: Tech
 date: 2024-12-30T00:00:00.000Z
 image: 'https://img.joeyzheng.tech/ob-1748506572250.png-30'
 published: 2024-12-30T00:00:00.000Z
 title: 十年Kubernetes：过去、现在和未来
 excerpt: '翻译自https://thenewstack.io/10-years-of-kubernetes-past-present-and-future/ Matt Butcher...'
+extra:
+  image: "https://img.joeyzheng.tech/ob-1748506572250.png-30"
+description: "翻译自https://thenewstack.io/10-years-of-kubernetes-past-present-and-future/ Matt Butcher..."
 ---
 # 十年Kubernetes：过去、现在和未来
 翻译自[https://thenewstack.io/10-years-of-kubernetes-past-present-and-future/](https://thenewstack.io/10-years-of-kubernetes-past-present-and-future/)

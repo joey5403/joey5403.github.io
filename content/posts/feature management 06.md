@@ -5,11 +5,17 @@ tags:
   - feature-management
   - release-management
   - feature-flags
+taxonomies:
+  tags:
+    - feature-management
+    - release-management
+    - feature-flags
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 published: 2024-10-20T00:00:00.000Z
 title: LaunchDarkly’s vision of feature management
 excerpt: Software powers the world. LaunchDarkly empowers all teams to deliver and control their software....
+description: "Software powers the world. LaunchDarkly empowers all teams to deliver and control their software...."
 ---
 ## Software powers the world. LaunchDarkly empowers all teams to deliver and control their software.
 

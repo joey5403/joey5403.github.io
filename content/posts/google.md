@@ -5,6 +5,11 @@ tags:
   - google
   - google-io
   - generative-ai
+taxonomies:
+  tags:
+    - google
+    - google-io
+    - generative-ai
 category: Tech
 date: 2024-08-08 10:21:00
 image: https://img.joeyzheng.tech/IMG_20240808_092349.jpg
@@ -12,6 +17,8 @@ published: 2024-08-08 10:21:00
 status: hidden
 draft: true
 title: Google I/O connection 2024
+extra:
+  image: "https://img.joeyzheng.tech/IMG_20240808_092349.jpg"
 ---
 # 进场
 ![](https://img.joeyzheng.tech/IMG_20240808_085247.jpg)  

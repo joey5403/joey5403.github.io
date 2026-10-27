@@ -5,12 +5,20 @@ tags:
   - Linux
   - terminal
   - command-line
+taxonomies:
+  tags:
+    - Linux
+    - terminal
+    - command-line
 category: Tech
 date: 2024-11-07T00:00:00.000Z
 image: 'https://img.joeyzheng.tech/ob-1730971484759.png'
 published: 2024-11-07T00:00:00.000Z
 title: Linux Terminal Apps
 excerpt: 'zellij 把这个放在最前面的目的，是因为这是后面所有软件的外壳。 终端的分屏工具，原来我是用tmux的，目前已完全换到了zellij，同类软件还有screen等。 https://github....'
+extra:
+  image: "https://img.joeyzheng.tech/ob-1730971484759.png"
+description: "zellij 把这个放在最前面的目的，是因为这是后面所有软件的外壳。 终端的分屏工具，原来我是用tmux的，目前已完全换到了zellij，同类软件还有screen等。 https://github...."
 ---
 # zellij
 把这个放在最前面的目的，是因为这是后面所有软件的外壳。  

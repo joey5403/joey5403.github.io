@@ -5,11 +5,17 @@ tags:
   - feature-toggle
   - technical-debt
   - feature-management
+taxonomies:
+  tags:
+    - feature-toggle
+    - technical-debt
+    - feature-management
 category: Tech
 date: 2024-10-20T00:00:00.000Z
 published: 2024-10-20T00:00:00.000Z
 title: Reducing technical debt from feature flags
 excerpt: 'Read time: 16 minutes Last edited: Oct 15, 2024 [](https://docs.launchdarkly....'
+description: "Read time: 16 minutes Last edited: Oct 15, 2024 [](https://docs.launchdarkly...."
 ---
 # Reducing technical debt from feature flags
 
