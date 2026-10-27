@@ -18,7 +18,6 @@ lang: zh
 status: published
 ---
 
-# 豆瓣读书 Top 250
 
 - 来源：<https://book.douban.com/top250>
 - 抓取时间：2026-07-07

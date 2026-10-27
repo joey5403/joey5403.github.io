@@ -17,7 +17,6 @@ title: Reducing technical debt from feature flags
 excerpt: 'Read time: 16 minutes Last edited: Oct 15, 2024 [](https://docs.launchdarkly....'
 description: "Read time: 16 minutes Last edited: Oct 15, 2024 [](https://docs.launchdarkly...."
 ---
-# Reducing technical debt from feature flags
 
 ##### Read time: 16 minutes
 

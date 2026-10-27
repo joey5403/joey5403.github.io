@@ -20,7 +20,6 @@ extra:
   image: "https://img.joeyzheng.tech/ob-1748506572250.png-30"
 description: "翻译自https://thenewstack.io/10-years-of-kubernetes-past-present-and-future/ Matt Butcher..."
 ---
-# 十年Kubernetes：过去、现在和未来
 翻译自[https://thenewstack.io/10-years-of-kubernetes-past-present-and-future/](https://thenewstack.io/10-years-of-kubernetes-past-present-and-future/)
 
 Matt Butcher 回顾了事情的起点，Kubernetes走向成熟的历程，以及它在WebAssembly运动中的潜力。

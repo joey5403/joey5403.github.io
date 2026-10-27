@@ -17,7 +17,6 @@ title: Improving flag usage in code
 excerpt: 'Read time: 10 minutes Last edited: Sep 18, 2024 [](https://docs.launchdarkly....'
 description: "Read time: 10 minutes Last edited: Sep 18, 2024 [](https://docs.launchdarkly...."
 ---
-# Improving flag usage in code
 
 ##### Read time: 10 minutes
 

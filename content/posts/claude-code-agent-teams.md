@@ -13,7 +13,6 @@ title: Claude Code Agent Teams 详解
 excerpt: '基于 Anthropic 官方文档：https://code.claude.com/docs/en/agent-teams ⚠️ Agent Teams 目前是实验性功能，默认关闭。已知存在会话恢复、任务协调、关闭行为方面的限制。...'
 description: "基于 Anthropic 官方文档：https://code.claude.com/docs/en/agent-teams ⚠️ Agent Teams 目前是实验性功能，默认关闭。已知存在会话恢复、任务协调、关闭行为方面的限制。..."
 ---
-# Claude Code Agent Teams 详解
 
 > 基于 Anthropic 官方文档：https://code.claude.com/docs/en/agent-teams
 >

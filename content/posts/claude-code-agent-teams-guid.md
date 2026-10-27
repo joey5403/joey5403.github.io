@@ -13,7 +13,6 @@ title: Claude Code Agent Teams 完整指南
 excerpt: 基于 Anthropic 官方文档整理 ⚠️ Agent Teams 目前是实验性功能，默认关闭，存在已知限制 --- 目录 1. 什么是 Agent Teams 2. 内置工具清单 3. 核心架构：谁负责什么 4. 共享任务看板 5....
 description: "基于 Anthropic 官方文档整理 ⚠️ Agent Teams 目前是实验性功能，默认关闭，存在已知限制 --- 目录 1. 什么是 Agent Teams 2. 内置工具清单 3. 核心架构：谁负责什么 4. 共享任务看板 5...."
 ---
-# Claude Code Agent Teams 完整指南
 
 > 基于 Anthropic 官方文档整理  
 > ⚠️ Agent Teams 目前是**实验性功能**，默认关闭，存在已知限制
